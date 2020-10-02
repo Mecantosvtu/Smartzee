@@ -1,0 +1,2272 @@
+
+<input type="hidden" id="JsFileLogin" value="/Login/" />
+<input type="hidden" id="JsFileCommon" value="/Common/" />
+<input type="hidden" id="JsFileTutor" value="/Tutor/Tutor/Index" />
+<input type="hidden" id="JsFileBaseURL" value="https://portal.fevtutor.com/crm/api/" />
+<input type="hidden" id="AdminJSCalendarFileUploadURL" value="../FileUpload.ashx" />
+<input type="hidden" id="StudentJSCalendarFileUploadURL" value="../../FileUpload.ashx" />
+<input type="hidden" id="JSStudentMonthTemplateURL" value="/CalendarSchedule/Student/Month/Calendar.html" />
+<input type="hidden" id="JSStudentWeekTemplateURL" value="/CalendarSchedule/Student/Week/Calendar.html" />
+<input type="hidden" id="JSAdminMonthTemplateURL" value="/CalendarSchedule/Admin/Month/Calendar.html" />
+<input type="hidden" id="JSAdminWeekTemplateURL" value="/CalendarSchedule/Admin/Week/Calendar.html" />
+<input type="hidden" id="hdnFevResSessionExpired" value="Session Expired. Please login again." />
+<input type="hidden" id="hdnFevResEmptyRecord" value="No Records Found." />
+<input type="hidden" id="hdnFevResErrorAlert" value="Error. Please try again." />
+<input type="hidden" id="hdnFevResAjaxCallError" value="Error occured in Ajax Call." />
+<input type="hidden" id="hdnFevResUserNameExist" value="Sorry, this Username already exist." />
+<input type="hidden" id="hdnFevResStartLessEnd" value="Start Date should be earlier than the End Date." />
+<input type="hidden" id="hdnFevResEndGreateStart" value="End Date should be greater than the Start Date." />
+<input type="hidden" id="hdnFevResPasswordMismatch" value="Password does not match the Confirm Password." />
+<input type="hidden" id="hdnFevResProgramManagerActive" value="Selected Program Manager account successfully activated." />
+<input type="hidden" id="hdnFevResProgramManagerDeActive" value="Selected Program Manager account successfully deactivated." />
+<input type="hidden" id="hdnFevResUserActive" value="Selected User account successfully activated." />
+<input type="hidden" id="hdnFevResUserDeActive" value="Selected User account successfully deactivated." />
+<input type="hidden" id="hdnFevResTutorActive" value="Selected Tutor account successfully activated." />
+<input type="hidden" id="hdnFevResTutorDeActive" value="Selected Tutor account successfully deactivated." />
+<input type="hidden" id="hdnFevResSchoolManagerActive" value="Selected School successfully activated." />
+<input type="hidden" id="hdnFevResSchoolManagerDeActive" value="Selected School successfully deactivated." />
+<input type="hidden" id="hdnFevResSchoolActive" value="Selected School successfully activated." />
+<input type="hidden" id="hdnFevResSchoolDeActive" value="Selected School successfully deactivated." />
+<input type="hidden" id="hdnFevResProgramActive" value="Selected Program successfully activated." />
+<input type="hidden" id="hdnFevResProgramDeActive" value="Selected Program successfully deactivated." />
+<input type="hidden" id="hdnFevResStudentActive" value="Selected Student account successfully activated." />
+<input type="hidden" id="hdnFevResStudentDeActive" value="Selected Student account successfully deactivated." />
+<input type="hidden" id="hdnFevResTeacherActive" value="Selected Teacher account successfully activated." />
+<input type="hidden" id="hdnFevResTeacherDeActive" value="Selected Teacher account successfully deactivated " />
+<input type="hidden" id="hdnFevResLessonActive" value="Selected Lesson successfully activated." />
+<input type="hidden" id="hdnFevResLessonDeActive" value="Selected Lesson successfully deactivated." />
+<input type="hidden" id="hdnFevResLMSActive" value="Selected LMS successfully activated." />
+<input type="hidden" id="hdnFevResLMSDeActive" value="Selected LMS successfully deactivated." />
+<input type="hidden" id="hdnFevResWorkPoolActive" value="Selected Workpool successfully activated." />
+<input type="hidden" id="hdnFevResWorkPoolDeActive" value="Selected Workpool deactivated." />
+<input type="hidden" id="hdnFevResCenterActive" value="Selected Tutoring Center successfully activated." />
+<input type="hidden" id="hdnFevResCenterDeActive" value="Selected Tutoring Center successfully deactivated." />
+<input type="hidden" id="hdnFevResSummaryActive" value="Selected Summary Report item successfully activated." />
+<input type="hidden" id="hdnFevResSummaryDeActive" value="Selected Summary Report item successfully deactivated." />
+<input type="hidden" id="hdnFevResTCMActive" value="Selected Tutoring Center Manager account successfully activated." />
+<input type="hidden" id="hdnFevResTCMDeActive" value="Selected Tutoring Center Manager account successfully deactivated." />
+<input type="hidden" id="hdnFevResDepartmentActive" value="Selected Department successfully activated." />
+<input type="hidden" id="hdnFevResDepartmentDeActive" value="Selected Department successfully deactivated." />
+<input type="hidden" id="hdnFevResAlertActive" value="Selected Alert successfully activated." />
+<input type="hidden" id="hdnFevResAlertDeActive" value="Selected Alert successfully deactivated." />
+<input type="hidden" id="hdnFevResDistrictActive" value="Selected District successfully activated." />
+<input type="hidden" id="hdnFevResDistrictDeActive" value="Selected District successfully deactivated." />
+<input type="hidden" id="hdnFevResLessonAssessmentActive" value="Selected Lesson Assessment successfully activated." />
+<input type="hidden" id="hdnFevResLessonAssessmentDeActive" value="Selected Lesson Assessment successfully deactivated." />
+<input type="hidden" id="hdnFevResRecordsDeleted" value="Selected Records successfull deleted." />
+<input type="hidden" id="hdnFevResMailsDeleted" value="Selected Mails successfully deleted." />
+<input type="hidden" id="hdnFevResSchoolCurriculumDeleted" value="Selected School Curriculum successfully deleted." />
+<input type="hidden" id="hdnFevResWorkPoolDelete" value="Selected Workpool successfully deleted." />
+<input type="hidden" id="hdnFevResNameExist" value="Sorry, the specified Name already Exist." />
+<input type="hidden" id="hdnFevResSchoolExist" value="Sorry, the specified School already Exist." />
+<input type="hidden" id="hdnFevResWorkpoolExist" value="Sorry, the specified Workpool already Exist." />
+<input type="hidden" id="hdnFevResCenterExist" value="Sorry, the specified Center already exist." />
+<input type="hidden" id="hdnFevResSubjectExist" value="Sorry, the specified Subject already Exist." />
+<input type="hidden" id="hdnFevResReferenceIDExist" value="Sorry, the specified Reference ID already Exist." />
+<input type="hidden" id="hdnFevResClassExist" value="Sorry, the specified Class already Exist." />
+<input type="hidden" id="hdnFevResDistrictExist" value="District Name already in use. Please see if district already exists or use a different name." />
+<input type="hidden" id="hdnFevResCourseExist" value="Sorry, the specified Course already Exist." />
+<input type="hidden" id="hdnFevResProgramExist" value="Sorry, the specified Program already Exist." />
+<input type="hidden" id="hdnFevResFevConstant1" value="Selected Student does not have this Package, Please add Package first." />
+<input type="hidden" id="hdnFevResFevConstant2" value="Sorry you cannot edit this &#39;Level&#39; since items are added." />
+<input type="hidden" id="hdnFevResFevConstant3" value="Sorry you cannot delete this &#39;Level&#39; since items are added." />
+<input type="hidden" id="hdnFevResFevConstant4" value="Sorry. You cannot create (custom) subscription packages." />
+<input type="hidden" id="hdnFevResFevConstant5" value="Sorry, could not connect to the tutors. All our tutors are busy. Please try again later." />
+<input type="hidden" id="hdnFevResFevConstant6" value="Sorry, alerts for this school already exist. Please go to the list and update." />
+<input type="hidden" id="hdnFevResFevConstant7" value="Only .xls and .xlsx extensions are supported." />
+<input type="hidden" id="hdnFevResFevConstant8" value="This may take some time. Please wait." />
+<input type="hidden" id="hdnFevResFevConstant9" value="Results are shown below." />
+<input type="hidden" id="hdnFevResFevConstant10" value="Invalid credentials." />
+<input type="hidden" id="hdnFevResFevConstant11" value="The Online Curriculum is being used by another user. Please contact Administrator." />
+<input type="hidden" id="hdnFevResFevConstant12" value="Invalid Session Data." />
+<input type="hidden" id="hdnFevResFevConstant13" value="This School Administrator Account is not associated with any School." />
+<input type="hidden" id="hdnFevResFevConstant14" value="This option is already selected." />
+<input type="hidden" id="hdnFevResFevConstant15" value="You can add up to 10 Records." />
+<input type="hidden" id="hdnFevResFevConstant16" value="Please fill the necessary fields and try again." />
+<input type="hidden" id="hdnFevResFevConstant17" value="Please enter Numeric Values only." />
+<input type="hidden" id="hdnFevResFevConstant18" value="You have no sessions to join." />
+<input type="hidden" id="hdnFevResFevConstant19" value="Cannot redirect to WhiteBoard." />
+<input type="hidden" id="hdnFevResFevConstant20" value="Expiry Date should not be less than current date." />
+<input type="hidden" id="hdnFevResFevConstant21" value="Session time is overlapping." />
+<input type="hidden" id="hdnFevResFevConstant22" value="Selected Session is in Progress." />
+<input type="hidden" id="hdnFevResFevConstant23" value="Promotion/demotion not possible." />
+<input type="hidden" id="hdnFevResFevConstant24" value="There is ongoing sessions for you. You can&#39;t go Offline before the sessions are ended. Please contact your Reporting Manager to end the session if you think it is a starving session. You can go Offline once it is done. Thank you." />
+<input type="hidden" id="hdnFevResFevConstant25" value="You don&#39;t have any shift at this time." />
+<input type="hidden" id="hdnFevResFevConstant26" value="Your shift has ended." />
+<input type="hidden" id="hdnFevResFevConstant27" value="Character Limit Exceeded." />
+<input type="hidden" id="hdnFevResFevConstant28" value="Form Data is not supported." />
+<input type="hidden" id="hdnFevResFevConstant29" value="Please select mail to delete." />
+<input type="hidden" id="hdnFevResFevConstant30" value="Sorry. You can&#39;t move this Session to QA." />
+<input type="hidden" id="hdnFevResFevConstant31" value="This Session is already queued." />
+<input type="hidden" id="hdnFevResFevConstant32" value="100 is the maximum value." />
+<input type="hidden" id="hdnFevResFevConstant33" value="This Session is already published." />
+<input type="hidden" id="hdnFevResFevConstant34" value="Session unpublished successfully." />
+<input type="hidden" id="hdnFevResFevConstant35" value="This session cannot be unpublished." />
+<input type="hidden" id="hdnFevResFevConstant36" value="Session un-publish operation failed." />
+<input type="hidden" id="hdnFevResFevConstant37" value="Cannot add this level as the final level has already been added." />
+<input type="hidden" id="hdnFevResFevConstant38" value="Session moved to QA line." />
+<input type="hidden" id="hdnFevResFevConstant39" value="Please select at least one Session." />
+<input type="hidden" id="hdnFevResFevConstant40" value="Make sure you select the Subject and click the Search button before assigning." />
+<input type="hidden" id="hdnFevResFevConstant41" value="Please select Subject." />
+<input type="hidden" id="hdnFevResFevConstant42" value="Bulk upload successful. Please click here to download the Result file." />
+<input type="hidden" id="hdnFevResFevConstant43" value="Unable to cancel the session." />
+<input type="hidden" id="hdnFevResFevConstant44" value="Invalid Program ID." />
+<input type="hidden" id="hdnFevResFevConstant45" value="Unable to perform this action." />
+<input type="hidden" id="hdnFevResFevConstant46" value="Solved problems cannot be greater than posted problems." />
+<input type="hidden" id="hdnFevResFevConstant47" value="Bonus question should be more than zero." />
+<input type="hidden" id="hdnFevResFevConstant48" value="Mail sent successfully." />
+<input type="hidden" id="hdnFevResFevConstant49" value="Sessions removed successfully." />
+<input type="hidden" id="hdnFevResFevConstant50" value="ILP(s) removed successfully." />
+<input type="hidden" id="hdnFevResFevConstant51" value="Completed successfully." />
+<input type="hidden" id="hdnFevResFevConstant52" value="Swapping done successfully." />
+<input type="hidden" id="hdnFevResFevConstant53" value="Swapping failed." />
+<input type="hidden" id="hdnFevResFevConstant54" value="Failed to update." />
+<input type="hidden" id="hdnFevResFevConstant55" value="Files uploaded successfully." />
+<input type="hidden" id="hdnFevResFevConstant56" value="File upload failed." />
+<input type="hidden" id="hdnFevResFevConstant57" value="Data upload failed." />
+<input type="hidden" id="hdnFevResFevConstant58" value="Created successfully." />
+<input type="hidden" id="hdnFevResFevConstant59" value="Updated successfully." />
+<input type="hidden" id="hdnFevResFevConstant60" value="Subject added successfully." />
+<input type="hidden" id="hdnFevResFevConstant61" value="Assigned successfully." />
+<input type="hidden" id="hdnFevResFevConstant62" value="Assigning Teacher failed." />
+<input type="hidden" id="hdnFevResFevConstant63" value="Board switched successfully." />
+<input type="hidden" id="hdnFevResFevConstant64" value="Data updated successfully." />
+<input type="hidden" id="hdnFevResFevConstant65" value="Data update failed." />
+<input type="hidden" id="hdnFevResFevConstant66" value="Preferred Tutor added successfully." />
+<input type="hidden" id="hdnFevResFevConstant67" value="Records have been deleted." />
+<input type="hidden" id="hdnFevResFevConstant68" value="Deletion failed." />
+<input type="hidden" id="hdnFevResFevConstant69" value="School assigned successfully." />
+<input type="hidden" id="hdnFevResFevConstant70" value="Assigning School failed." />
+<input type="hidden" id="hdnFevResFevConstant71" value="Package added successfully." />
+<input type="hidden" id="hdnFevResFevConstant72" value="Selected School Curriculum deleted successfully." />
+<input type="hidden" id="hdnFevResFevConstant73" value="Wallet updated successfully." />
+<input type="hidden" id="hdnFevResFevConstant74" value="Details updated successfully." />
+<input type="hidden" id="hdnFevResFevConstant75" value="Status updated Successfully." />
+<input type="hidden" id="hdnFevResFevConstant76" value="SMS sent successfully." />
+<input type="hidden" id="hdnFevResFevConstant77" value="Projects successfully added." />
+<input type="hidden" id="hdnFevResFevConstant78" value="Course updated successfully." />
+<input type="hidden" id="hdnFevResFevConstant79" value="Subject status changed successfully." />
+<input type="hidden" id="hdnFevResFevConstant80" value="Pre-Test score updated successfully." />
+<input type="hidden" id="hdnFevResFevConstant81" value="Your Comment added successfully." />
+<input type="hidden" id="hdnFevResFevConstant83" value="Details added Successfully." />
+<input type="hidden" id="hdnFevResFevConstant84" value="Details not found." />
+<input type="hidden" id="hdnFevResFevConstant85" value="Details changed successfully." />
+<input type="hidden" id="hdnFevResFevConstant86" value="Sessions status updated successfully." />
+<input type="hidden" id="hdnFevResFevConstant87" value="Session status cannot be updated." />
+<input type="hidden" id="hdnFevResFevConstant88" value="Session not found." />
+<input type="hidden" id="hdnFevResFevConstant89" value="Registration completed successfully." />
+<input type="hidden" id="hdnFevResFevConstant90" value="Exception happened, please check your Excel file and try again." />
+<input type="hidden" id="hdnFevResFevConstant91" value="QA Report approved successfully." />
+<input type="hidden" id="hdnFevResFevConstant92" value="QA Report submitted successfully." />
+<input type="hidden" id="hdnFevResFevConstant93" value="Sessions details updated to &#39;Admin Delete&#39; successfully." />
+<input type="hidden" id="hdnFevResFevConstant94" value="Sessions details updated to &#39;Complete&#39; successfully." />
+<input type="hidden" id="hdnFevResFevConstant95" value="Session has been canceled successfully." />
+<input type="hidden" id="hdnFevResFevConstant96" value="Session assigned for QA successfully." />
+<input type="hidden" id="hdnFevResFevConstant97" value="All values for this level successfully cleared." />
+<input type="hidden" id="hdnFevResFevConstant98" value="Billable status updated successfully." />
+<input type="hidden" id="hdnFevResFevConstant99" value="File uploaded successfully. Click on &#39;Download Result File&#39; to view the result." />
+<input type="hidden" id="hdnFevResFevConstant100" value="Record has been updated successfully." />
+<input type="hidden" id="hdnFevResFevConstant101" value="Minutes added successfully." />
+<input type="hidden" id="hdnFevResFevConstant102" value="Minutes removed successfully." />
+<input type="hidden" id="hdnFevResFevConstant103" value="Password changed successfully." />
+<input type="hidden" id="hdnFevResFevConstant104" value="Your account created Successfully." />
+<input type="hidden" id="hdnFevResFevConstant105" value="Please choose file to upload." />
+<input type="hidden" id="hdnFevResFevConstant106" value="Please add at least one &#39;State Standard&#39;." />
+<input type="hidden" id="hdnFevResFevConstant107" value="Please add at least one content." />
+<input type="hidden" id="hdnFevResFevConstant108" value="Please try for another Tutor." />
+<input type="hidden" id="hdnFevResFevConstant109" value="Special Characters not supported in &#39;User Name&#39;." />
+<input type="hidden" id="hdnFevResFevConstant110" value="Special Characters not supported in &#39;First Name&#39;." />
+<input type="hidden" id="hdnFevResFevConstant111" value="Special Characters not supported in &#39;Last Name&#39;." />
+<input type="hidden" id="hdnFevResFevConstant112" value="Please enter &#39;Password&#39;." />
+<input type="hidden" id="hdnFevResFevConstant113" value="Please enter &#39;Confirm Password&#39;." />
+<input type="hidden" id="hdnFevResFevConstant114" value="Please enter session IDs." />
+<input type="hidden" id="hdnFevResFevConstant115" value="Please enter ILP IDs." />
+<input type="hidden" id="hdnFevResFevConstant116" value="Please enter &#39;User Name&#39;." />
+<input type="hidden" id="hdnFevResFevConstant117" value="Please enter &#39;First Name&#39;." />
+<input type="hidden" id="hdnFevResFevConstant118" value="Please enter &#39;Last Name&#39;." />
+<input type="hidden" id="hdnFevResFevConstant119" value="Please enter &#39;Phone Number&#39;." />
+<input type="hidden" id="hdnFevResFevConstant120" value="Please enter &#39;Date Of Birth&#39;." />
+<input type="hidden" id="hdnFevResFevConstant121" value="Please enter &#39;Email Address&#39;." />
+<input type="hidden" id="hdnFevResFevConstant122" value="Please enter a valid &#39;Email Address&#39;." />
+<input type="hidden" id="hdnFevResFevConstant123" value="Please enter &#39;Comments&#39;." />
+<input type="hidden" id="hdnFevResFevConstant124" value="Please enter state standard alignment." />
+<input type="hidden" id="hdnFevResFevConstant125" value="Please enter &#39;Lesson Topic&#39;." />
+<input type="hidden" id="hdnFevResFevConstant126" value="Please enter &#39;Daily Objective&#39;." />
+<input type="hidden" id="hdnFevResFevConstant127" value="Please enter &#39;FEV Alignment&#39;." />
+<input type="hidden" id="hdnFevResFevConstant128" value="Please enter &#39;Unit&#39;." />
+<input type="hidden" id="hdnFevResFevConstant129" value="Please enter &#39;URL&#39;." />
+<input type="hidden" id="hdnFevResFevConstant130" value="Please enter &#39;Name&#39;." />
+<input type="hidden" id="hdnFevResFevConstant131" value="Please enter &#39;Workpool Name&#39;." />
+<input type="hidden" id="hdnFevResFevConstant132" value="Please enter &#39;Reason&#39;." />
+<input type="hidden" id="hdnFevResFevConstant133" value="Please enter a valid &#39;From Mail Address&#39;." />
+<input type="hidden" id="hdnFevResFevConstant134" value="Please enter &#39;Mail Subject Line&#39;." />
+<input type="hidden" id="hdnFevResFevConstant135" value="Please enter &#39;Greeting Line&#39;." />
+<input type="hidden" id="hdnFevResFevConstant136" value="Please enter &#39;Signature&#39;." />
+<input type="hidden" id="hdnFevResFevConstant137" value="Please enter &#39;Center Name&#39;." />
+<input type="hidden" id="hdnFevResFevConstant138" value="Invalid Center Name." />
+<input type="hidden" id="hdnFevResFevConstant139" value="Please enter &#39;Reference ID&#39;." />
+<input type="hidden" id="hdnFevResFevConstant140" value="Please enter &#39;Curriculum Name&#39;." />
+<input type="hidden" id="hdnFevResFevConstant141" value="Please enter &#39;Package Name&#39;." />
+<input type="hidden" id="hdnFevResFevConstant142" value="Please enter &#39;Description&#39;." />
+<input type="hidden" id="hdnFevResFevConstant143" value="Please enter &#39;Cost&#39;." />
+<input type="hidden" id="hdnFevResFevConstant144" value="Please enter &#39;Duration&#39;." />
+<input type="hidden" id="hdnFevResFevConstant145" value="Please enter &#39;Class Name&#39;." />
+<input type="hidden" id="hdnFevResFevConstant146" value="Please enter &#39;Score&#39;." />
+<input type="hidden" id="hdnFevResFevConstant147" value="Please enter &#39;Student IDs&#39;." />
+<input type="hidden" id="hdnFevResFevConstant148" value="Please enter &#39;Item Name&#39;." />
+<input type="hidden" id="hdnFevResFevConstant149" value="Please enter &#39;Pseudo Name&#39;." />
+<input type="hidden" id="hdnFevResFevConstant150" value="Please enter &#39;District Name&#39;." />
+<input type="hidden" id="hdnFevResFevConstant151" value="Please enter &#39;Thanking Note&#39;." />
+<input type="hidden" id="hdnFevResFevConstant152" value="Please enter a valid &#39;CC Email Address&#39;." />
+<input type="hidden" id="hdnFevResFevConstant153" value="Please enter a valid &#39;BCC Email Address&#39;." />
+<input type="hidden" id="hdnFevResFevConstant154" value="Please enter &#39;Mail Body&#39;." />
+<input type="hidden" id="hdnFevResFevConstant155" value="Please enter &#39;Progress Notes&#39;." />
+<input type="hidden" id="hdnFevResFevConstant156" value="Please enter &#39;Participation Points&#39;." />
+<input type="hidden" id="hdnFevResFevConstant157" value="Please enter &#39;Performance points&#39;." />
+<input type="hidden" id="hdnFevResFevConstant158" value="Please enter no. of exit tickets questions posted." />
+<input type="hidden" id="hdnFevResFevConstant159" value="Please enter no. of exit ticket questions solved." />
+<input type="hidden" id="hdnFevResFevConstant160" value="Please enter less than Label Value" />
+<input type="hidden" id="hdnFevResFevConstant161" value="Please enter &#39;Student needs help in&#39; value." />
+<input type="hidden" id="hdnFevResFevConstant162" value="Please enter &#39;Grade&#39;." />
+<input type="hidden" id="hdnFevResFevConstant163" value="Please enter numeric value in &#39;Sort Order&#39;." />
+<input type="hidden" id="hdnFevResFevConstant164" value="Please enter &#39;Exit Ticket Score&#39;." />
+<input type="hidden" id="hdnFevResFevConstant165" value="Please enter numeric value in &#39;Duration&#39;." />
+<input type="hidden" id="hdnFevResFevConstant166" value="Please enter &#39;Tutor Comment&#39;." />
+<input type="hidden" id="hdnFevResFevConstant168" value="Please enter &#39;Cost&#39; and &#39;Duration&#39;." />
+<input type="hidden" id="hdnFevResFevConstant169" value="Please enter &#39;Contact Person Name&#39;." />
+<input type="hidden" id="hdnFevResFevConstant170" value="Please enter &#39;Contact Person Email&#39;." />
+<input type="hidden" id="hdnFevResFevConstant171" value="Please enter &#39;Contact Person Phone&#39;." />
+<input type="hidden" id="hdnFevResFevConstant172" value="Please enter &#39;Spend Hours&#39;." />
+<input type="hidden" id="hdnFevResFevConstant173" value="Please enter &#39;Average Hours&#39;." />
+<input type="hidden" id="hdnFevResFevConstant174" value="Please select &#39;Tutor Type&#39;." />
+<input type="hidden" id="hdnFevResFevConstant175" value="Please select &#39;Center&#39;." />
+<input type="hidden" id="hdnFevResFevConstant176" value="Please select &#39;School&#39;." />
+<input type="hidden" id="hdnFevResFevConstant177" value="Please select &#39;Type&#39;." />
+<input type="hidden" id="hdnFevResFevConstant178" value="Please select &#39;Program&#39;." />
+<input type="hidden" id="hdnFevResFevConstant179" value="Please select &#39;Title&#39;." />
+<input type="hidden" id="hdnFevResFevConstant180" value="Please select &#39;Gender&#39;." />
+<input type="hidden" id="hdnFevResFevConstant181" value="Please select &#39;Grade&#39;." />
+<input type="hidden" id="hdnFevResFevConstant182" value="Please select &#39;Timezone&#39;." />
+<input type="hidden" id="hdnFevResFevConstant183" value="Please select &#39;Ticket Category&#39;." />
+<input type="hidden" id="hdnFevResFevConstant184" value="Please select &#39;Case Type&#39;." />
+<input type="hidden" id="hdnFevResFevConstant185" value="Please select &#39;Severity&#39;." />
+<input type="hidden" id="hdnFevResFevConstant186" value="Please select &#39;Priority&#39;." />
+<input type="hidden" id="hdnFevResFevConstant187" value="Please select &#39;Escalation Level&#39;." />
+<input type="hidden" id="hdnFevResFevConstant188" value="Please select &#39;District&#39;." />
+<input type="hidden" id="hdnFevResFevConstant189" value="Please select at least one &#39;Student&#39;." />
+<input type="hidden" id="hdnFevResFevConstant190" value="Please select &#39;Teacher&#39;." />
+<input type="hidden" id="hdnFevResFevConstant191" value="Please select &#39;Activity Type&#39;." />
+<input type="hidden" id="hdnFevResFevConstant192" value="Please select a &#39;Call Type (Inbound / Outbound)&#39;." />
+<input type="hidden" id="hdnFevResFevConstant193" value="Please select &#39;State Standard&#39;." />
+<input type="hidden" id="hdnFevResFevConstant194" value="Please enter &#39;Course&#39;." />
+<input type="hidden" id="hdnFevResFevConstant195" value="Please select &#39;Subject&#39;." />
+<input type="hidden" id="hdnFevResFevConstant196" value="Please select &#39;Country&#39;." />
+<input type="hidden" id="hdnFevResFevConstant197" value="Please select &#39;State&#39;." />
+<input type="hidden" id="hdnFevResFevConstant198" value="Please select &#39;Week Day&#39;." />
+<input type="hidden" id="hdnFevResFevConstant199" value="Please select at least one &#39;Week Day&#39;." />
+<input type="hidden" id="hdnFevResFevConstant200" value="Please select at least one &#39;Test&#39;." />
+<input type="hidden" id="hdnFevResFevConstant201" value="Please select one &#39;User&#39; to send mail." />
+<input type="hidden" id="hdnFevResFevConstant202" value="Please select &#39;ILP name&#39;." />
+<input type="hidden" id="hdnFevResFevConstant203" value="Please select &#39;Lesson Objective&#39;." />
+<input type="hidden" id="hdnFevResFevConstant204" value="Please select at least one &#39;Type Of Action&#39;." />
+<input type="hidden" id="hdnFevResFevConstant205" value="Please select &#39;Report Category&#39;." />
+<input type="hidden" id="hdnFevResFevConstant206" value="Please select at least one &#39;Program&#39;." />
+<input type="hidden" id="hdnFevResFevConstant207" value="Please select &#39;Flavour Mail Status&#39;." />
+<input type="hidden" id="hdnFevResFevConstant208" value="Please select &#39;Zero Attendance Mail&#39;." />
+<input type="hidden" id="hdnFevResFevConstant209" value="Please select &#39;Mail Option&#39;." />
+<input type="hidden" id="hdnFevResFevConstant210" value="Please select &#39;Utilization Hours Update&#39;." />
+<input type="hidden" id="hdnFevResFevConstant211" value="Please select &#39;Utilization Hours&#39;." />
+<input type="hidden" id="hdnFevResFevConstant212" value="Please select &#39;Course&#39;." />
+<input type="hidden" id="hdnFevResFevConstant213" value="Please select &#39;Products&#39;." />
+<input type="hidden" id="hdnFevResFevConstant214" value="Please select &#39;Package Type&#39;." />
+<input type="hidden" id="hdnFevResFevConstant215" value="Please select &#39;Currency&#39;." />
+<input type="hidden" id="hdnFevResFevConstant216" value="Please select &#39;Student&#39;." />
+<input type="hidden" id="hdnFevResFevConstant217" value="Please enter &#39;Title&#39;." />
+<input type="hidden" id="hdnFevResFevConstant218" value="Please select &#39;Package&#39;." />
+<input type="hidden" id="hdnFevResFevConstant219" value="Please select &#39;Expiry Date&#39;." />
+<input type="hidden" id="hdnFevResFevConstant220" value="Please select at least one &#39;Lesson&#39;." />
+<input type="hidden" id="hdnFevResFevConstant221" value="Please select &#39;Attended Date&#39;." />
+<input type="hidden" id="hdnFevResFevConstant222" value="Please select &#39;Student Type&#39;." />
+<input type="hidden" id="hdnFevResFevConstant223" value="Please select one &#39;Action&#39;." />
+<input type="hidden" id="hdnFevResFevConstant224" value="Please select at least one student to proceed." />
+<input type="hidden" id="hdnFevResFevConstant225" value="Please select valid &#39;From&#39;." />
+<input type="hidden" id="hdnFevResFevConstant226" value="Please select valid &#39;To&#39;." />
+<input type="hidden" id="hdnFevResFevConstant227" value="Please select &#39;Control Type&#39;." />
+<input type="hidden" id="hdnFevResFevConstant228" value="Please select &#39;Start By&#39;." />
+<input type="hidden" id="hdnFevResFevConstant229" value="Please select &#39;Complete By&#39;." />
+<input type="hidden" id="hdnFevResFevConstant230" value="Please select &#39;Role&#39;." />
+<input type="hidden" id="hdnFevResFevConstant231" value="Please select &#39;Date of Birth&#39;." />
+<input type="hidden" id="hdnFevResFevConstant232" value="Please select at least one &#39;Project&#39;." />
+<input type="hidden" id="hdnFevResFevConstant233" value="Please select &#39;Auto-refill Type&#39;." />
+<input type="hidden" id="hdnFevResFevConstant234" value="Please select &#39;Session Date&#39;." />
+<input type="hidden" id="hdnFevResFevConstant235" value="Please select &#39;Start Hours&#39;." />
+<input type="hidden" id="hdnFevResFevConstant236" value="Please select &#39;Start Minutes&#39;." />
+<input type="hidden" id="hdnFevResFevConstant237" value="Please select &#39;Status&#39;." />
+<input type="hidden" id="hdnFevResFevConstant238" value="Please select at least one student to switch the board." />
+<input type="hidden" id="hdnFevResFevConstant239" value="Please select an &#39;Option&#39;." />
+<input type="hidden" id="hdnFevResFevConstant240" value="Please select students which are in same Time zone." />
+<input type="hidden" id="hdnFevResFevConstant241" value="Please select &#39;Message&#39; to delete." />
+<input type="hidden" id="hdnFevResFevConstant242" value="Please select &#39;Activity Type&#39; and fill comments." />
+<input type="hidden" id="hdnFevResFevConstant243" value="Please select students from list." />
+<input type="hidden" id="hdnFevResFevConstant244" value="Please enter &#39;Program Name&#39;." />
+<input type="hidden" id="hdnFevResFevConstant245" value="Please enter &#39;Subject Line&#39;." />
+<input type="hidden" id="hdnFevResFevConstant246" value="Please enter &#39;School Name&#39;." />
+<input type="hidden" id="hdnFevResFevConstant247" value="Please select &#39;Class&#39;." />
+<input type="hidden" id="hdnFevResFevConstant248" value="Please select &#39;Workpool&#39;." />
+<input type="hidden" id="hdnFevResFevConstant249" value="Please enter &#39;Lesson Objective&#39;." />
+<input type="hidden" id="hdnFevResFevConstant250" value="&#39;Start Date&#39; value should be less than current date." />
+<input type="hidden" id="hdnFevResFevConstant251" value="Invalid &#39;Site URL&#39;! URL looks like:- \nhttp://www.domain.com/ (or) \nhttp://domain.com/." />
+<input type="hidden" id="hdnFevResFevConstant252" value="Please enter &#39;Student Name&#39;." />
+<input type="hidden" id="hdnFevResFevConstant253" value="Please enter &#39;Teacher Name&#39;." />
+<input type="hidden" id="hdnFevResFevConstant254" value="Please enter no. of &#39;Solved Problems&#39;." />
+<input type="hidden" id="hdnFevResFevConstant255" value="Please select &#39;Tutor&#39;." />
+<input type="hidden" id="hdnFevResFevConstant256" value="Transfer complete &lt;br/&gt; Please click &#39;OK&#39; to refresh session display." />
+<input type="hidden" id="hdnFevResFevConstant257" value="Please enter &#39;Notes&#39;." />
+<input type="hidden" id="hdnFevResFevConstant258" value="Please enter &#39;Message&#39;." />
+<input type="hidden" id="hdnFevResFevConstant259" value="Tutor assignment is done. Please click &#39;OK&#39; to refresh session display." />
+<input type="hidden" id="hdnFevResFevConstant260" value="Can&#39;t transfer this session." />
+<input type="hidden" id="hdnFevResFevConstant261" value="Please enter &#39;Subject&#39;." />
+<input type="hidden" id="hdnFevResFevConstant262" value="The &#39;New Password&#39; and &#39;Confirm Password&#39; values should match." />
+<input type="hidden" id="hdnFevResFevConstant263" value="Please fill all above fields and submit." />
+<input type="hidden" id="hdnFevResFevConstant264" value="Please enter a valid &#39;To&#39; address." />
+<input type="hidden" id="hdnFevResFevConstant265" value="Please enter a valid &#39;Phone Number&#39;." />
+<input type="hidden" id="hdnFevResFevConstant266" value="Pretest score already exist." />
+<input type="hidden" id="hdnFevResFevConstant267" value="Pretest score can&#39;t be empty." />
+<input type="hidden" id="hdnFevResFevConstant268" value="Successfully Replied." />
+<input type="hidden" id="hdnFevResFevConstant269" value="Inbox" />
+<input type="hidden" id="hdnFevResFevConstant270" value="Not Available" />
+<input type="hidden" id="hdnFevResFevConstant271" value="Are you sure you want to Activate?" />
+<input type="hidden" id="hdnFevResFevConstant272" value="Are you sure you want to De-Activate?" />
+<input type="hidden" id="hdnFevResFevConstant273" value="Are you sure you want to continue?" />
+<input type="hidden" id="hdnFevResFevConstant274" value="Are you sure you want to delete?" />
+<input type="hidden" id="hdnFevResFevConstant275" value="Are you sure you want to edit?" />
+<input type="hidden" id="hdnFevResFevConstant276" value="Are you sure you want to log off?" />
+<input type="hidden" id="hdnFevResFevConstant277" value="Are you sure you want to Cancel the Session?" />
+<input type="hidden" id="hdnFevResFevConstant278" value="Are you sure you want to download this file?" />
+<input type="hidden" id="hdnFevResFevConstant279" value="Are you sure want to continue without subject?" />
+<input type="hidden" id="hdnFevResFevConstant280" value="Changes will reflect to all the student accounts under this school. Are you sure to continue?" />
+<input type="hidden" id="hdnFevResFevConstant282" value="Found active tutors using this LMS. Are you sure you want to De-Activate?" />
+<input type="hidden" id="hdnFevResFevConstant283" value="&#39;Question&#39; is the last level in the hierarchy. You cannot add any level after this. Are you sure you want to continue?" />
+<input type="hidden" id="hdnFevResFevConstant284" value="Confirm Action: Delete Selected Sessions." />
+<input type="hidden" id="hdnFevResFevConstant285" value="Confirm Action: Submit/Finish Test." />
+<input type="hidden" id="hdnFevResFevConstant286" value="Confirm Action: Add Package to Student." />
+<input type="hidden" id="hdnFevResFevConstant287" value="There are sessions present in this workpool. Are you sure you want to delete this Workpool?" />
+<input type="hidden" id="hdnFevResFevConstant288" value="There are live sessions associated with the student account. Are you sure you want to delete this Student?" />
+<input type="hidden" id="hdnFevResFevConstant289" value="The updated values are not saved and will loss if you are proceeding with search. Do you want to proceed?" />
+<input type="hidden" id="hdnFevResFevConstant290" value="Un-publish will remove the session from application. Do you want to proceed?" />
+<input type="hidden" id="hdnFevResFevConstant291" value="Do you want to switch board for selected students?" />
+<input type="hidden" id="hdnFevResFevConstant292" value="Do you want the selected sessions to set for QA?" />
+<input type="hidden" id="hdnFevResFevConstant307" value="Please enter &#39;Tutor Name&#39;." />
+<input type="hidden" id="hdnFevResFevConstant328" value="Click Here To Download Result File" />
+<input type="hidden" id="hdnFevResFevConstant329" value="Please Click On Join Button to Join the Session." />
+<input type="hidden" id="hdnFevResFevConstant330" value="No Enabled Subjects" />
+<input type="hidden" id="hdnFevResFevConstant331" value="Request has been processed successfully, Success Count :" />
+<input type="hidden" id="hdnFevResFevConstant332" value=", Failed Count : " />
+<input type="hidden" id="hdnFevResFevConstant333" value="Sessions has been Published, but logging has been Failed. Please Contact Admin" />
+<input type="hidden" id="hdnFevResFevConstant334" value="No Items Found For this Test. Please click &#39;Test Completed&#39; button to complete the test" />
+<input type="hidden" id="hdnFevResFevConstant335" value="You Have Attempted all Questions Please click &#39;Test Completed&#39; button to complete the test" />
+<input type="hidden" id="hdnFevResFevConstant336" value="Test Completed Successfully." />
+<input type="hidden" id="hdnFevResFevConstant337" value="Click Here To Goto Dash Board" />
+<input type="hidden" id="hdnFevResFevConstant338" value="Failed To Complete." />
+<input type="hidden" id="hdnFevResFevConstant339" value="Connecting to tutor." />
+<input type="hidden" id="hdnFevResFevConstant340" value="Approximate wait time is " />
+<input type="hidden" id="hdnFevResFevConstant341" value="You are almost there." />
+<input type="hidden" id="hdnFevResFevConstant342" value="Sessions Publishing Has been Failed. Please Contact Admin" />
+<input type="hidden" id="hdnFevResFevConstant343" value="Pre Test Player" />
+<input type="hidden" id="hdnFevResFevConstant344" value="Interim Test Player" />
+<input type="hidden" id="hdnFevResFevConstant345" value="Post Test Player" />
+<input type="hidden" id="hdnFevResFevConstant346" value="NA" />
+<input type="hidden" id="hdnFevResFevConstant347" value="ReTeach" />
+<input type="hidden" id="hdnFevResFevConstant348" value="Beginning" />
+<input type="hidden" id="hdnFevResFevConstant349" value="Developing" />
+<input type="hidden" id="hdnFevResFevConstant350" value="Approaching" />
+<input type="hidden" id="hdnFevResFevConstant351" value="Ready" />
+<input type="hidden" id="hdnFevResFevConstant352" value="Assigned" />
+<input type="hidden" id="hdnFevResFevConstant353" value="Redirected to AT" />
+<input type="hidden" id="hdnFevResFevConstant354" value="No PreTest" />
+<input type="hidden" id="hdnFevResFevConstant355" value="Overall session Proficiency is displayed here. Click to view subject wise break-up." />
+<input type="hidden" id="hdnFevResFevConstant356" value="Overall attendance is displayed here. Click to view subject wise break-up." />
+<input type="hidden" id="hdnFevResFevConstant357" value="Overall participation points is displayed here. Click to view subject wise break-up." />
+<input type="hidden" id="hdnFevResFevConstant358" value="Displays the subject wise learning plan." />
+<input type="hidden" id="hdnFevResFevConstant359" value="Click to Join a Session at your scheduled session time. Throughout your scheduled session duration, this link will be active." />
+<input type="hidden" id="hdnFevResFevConstant360" value="Click to view your daily, weekly or monthly session schedule." />
+<input type="hidden" id="hdnFevResFevConstant361" value="Click here to join an On-Demand session right away" />
+<input type="hidden" id="hdnFevResFevConstant362" value="Click to view your complete session history" />
+<input type="hidden" id="hdnFevResFevConstant363" value="Are you to sure, you want to clear the ILP and Lesson detils." />
+<input type="hidden" id="hdnFevResFevConstant364" value="The changes will be in effect for the sessions published hereafter." />
+<input type="hidden" id="hdnFevResFevConstant316" value="Please enter no. of exit ticket questions attempted." />
+<input type="hidden" id="hdnFevResFevConstant317" value="Please enter exit ticket points earned." />
+<input type="hidden" id="hdnFevResFevConstant318" value="Please enter performance points." />
+<input type="hidden" id="hdnFevResFevConstant381" value="Please Enter &#39;Number Of Sessions&#39;" />
+<input type="hidden" id="hdnFevResFevConstant382" value="&#39;Feedback&#39; already published" />
+<input type="hidden" id="hdnFevResFevConstant383" value="Selected Session is already picked by other Tutor." />
+<input type="hidden" id="hdnFevResFevConstant384" value="Session is already picked by Tutor." />
+<input type="hidden" id="hdnFevResFevConstant385" value="Please enter a valid &#39;Alternative Email Address&#39;." />
+<input type="hidden" id="hdnFevResFevConstantDDL2" value="No State" />
+<input type="hidden" id="hdnFevResFevConstantDDL3" value="Select District" />
+<input type="hidden" id="hdnFevResFevConstantDDL4" value="No District" />
+<input type="hidden" id="hdnFevResFevConstantDDL5" value="Select School" />
+<input type="hidden" id="hdnFevResFevConstantDDL6" value="No School" />
+<input type="hidden" id="hdnFevResFevConstantDDL7" value="Select Program" />
+<input type="hidden" id="hdnFevResFevConstantDDL8" value="No Program" />
+<input type="hidden" id="hdnFevResFevConstantDDL9" value="Select Teacher" />
+<input type="hidden" id="hdnFevResFevConstantDDL10" value="No Teacher" />
+<input type="hidden" id="hdnFevResFevConstantDDL11" value="Select Subject" />
+<input type="hidden" id="hdnFevResFevConstantDDL12" value="Select Grade" />
+<input type="hidden" id="hdnFevResFevConstantDDL32" value="Select Class" />
+<input type="hidden" id="hdnFevResFevConstantDDL14" value="Select ILP" />
+<input type="hidden" id="hdnFevResFevConstantDDL15" value="Select Lesson" />
+<input type="hidden" id="hdnFevResFevConstantDDL16" value="No Lesson" />
+<input type="hidden" id="hdnFevResFevConstantDDL25" value="Select Package" />
+<input type="hidden" id="hdnFevResFevConstantDDL34" value="Select Unit" />
+<input type="hidden" id="hdnFevResFevConstantDDL35" value="Select State" />
+<input type="hidden" id="hdnFevResFevConstantDDL38" value="Select Indicator" />
+<input type="hidden" id="hdnFevResFevConstantDDL39" value="Select Tutor" />
+<input type="hidden" id="hdnFevResFevConstantDDL50" value="Select Topic" />
+<input type="hidden" id="hdnFevResFevConstantDDL52" value="Select Options" />
+<input type="hidden" id="hdnFevResFevConstantDDL56" value="Select QA" />
+<input type="hidden" id="hdnFevResFevConstantDDL60" value="Start Time Hours" />
+<input type="hidden" id="hdnFevResFevConstantDDL61" value="Start Time Minutes" />
+<input type="hidden" id="hdnFevResFevStudentJoinMessage3" value="You have a session scheduled for now. Click here to join." />
+<input type="hidden" id="hdnFevResFevStudentJoinMessage4" value="There is a live session for you. Click here to join." />
+<input type="hidden" id="hdnFevResFevStudentJoinMessage5" value="No new notifications for you" />
+<input type="hidden" id="hdnFevResTutorWrkPoolFore" value="This tutor does not belong to selected subject workpool." />
+<input type="hidden" id="hdnFevResNoWrkPoolFore" value="Since no workpool is created for this subject, sessions using this subject will not be displayed to any Tutors. So please create a workpool for this subject before publishing the session." />
+<input type="hidden" id="hdnFevResRepublishFore" value="Republishing is only allowed 3 minutes before the scheduled start time." />
+<input type="hidden" id="hdnFevResFevConstantAbbreviation" value="Please enter &#39;Abbreviation Name&#39;." />
+<input type="hidden" id="hdnFevResFevConstantAbbreviationExist" value="Sorry, the specified Abbreviation already exist." />
+<input type="hidden" id="hdnFevResFevConstantNoChanges" value="No Changes Applied" />
+<input type="hidden" id="hdnFevResSchedulePlanDeActive" value="Selected plan deactivated successfully ." />
+<input type="hidden" id="hdnFevResSchedulePlanActive" value="Selected plan activated successfully ." />
+<input type="hidden" id="hdnFevResFevConstantDDL450" value="Please select &#39;Reason&#39;." />
+<input type="hidden" id="hdnFevResSchoolAutoRefillDeactive" value="Selected School&#39;s Auto Refill Successfully Deactivated." />
+<input type="hidden" id="hdnFevResSchoolAutoRefillActive" value="Selected School&#39;s Auto Refill Successfully Activated." />
+<input type="hidden" id="hdnFevResProgramAutoRefillDeactive" value="Selected Program&#39;s Auto Refill Successfully Deactivated." />
+<input type="hidden" id="hdnFevResProgramAutoRefillActive" value="Selected Program&#39;s Auto Refill Successfully Activated." />
+<input type="hidden" id="hdnFevResUploadNotesFile" value="Upload Notes and Files" />
+<input type="hidden" id="hdnFevResViewNotes" value="View Notes" />
+<input type="hidden" id="hdnDDLSelectSchoolManager" value="Select SchoolManager" />
+<input type="hidden" id="hdnFevConstant386" value="2" />
+<input type="hidden" id="hdnFevConstant387" value="Only allowed 2 tutors as a Preferred Tutor" />
+<input type="hidden" id="hdnFevResQANotApproved" value="Selected QA Report Not Approved" />
+<input type="hidden" id="hdnFevConstant96" value="Session assigned for QA successfully." />
+<input type="hidden" id="hdnFevResDefaultSupportMail" value="support@fevtutor.com" />
+<input type="hidden" id="hdnFevResDefaultSupportPhone" value="8557632607" />
+<input type="hidden" id="hdnFevCalendarMessage2" value="Max file size should be 1MB." />
+<input type="hidden" id="hdnFevResFevConstantDDL13" value="Select Teacher" />
+<input type="hidden" id="hdnFevResFevConstantddlDist" value="Select Region" />
+<input type="hidden" id="hdnFevResFevConstantDDL63" value="Select Client" />
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" /><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info = {"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"edfec5f5ea","applicationID":"419360409","transactionName":"YQFQZ0pTVhACVkxaWlhLf2V7HWwWF1pKcFpYEEBcVF5dEUx8VldQTg==","queueTime":0,"applicationTime":8,"agent":"","atts":""}</script><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"edfec5f5ea",applicationID:"419360409"};window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var i=n[t]={exports:{}};e[t][0].call(i.exports,function(n){var i=e[t][1][n];return r(i||n)},i,i.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<t.length;i++)r(t[i]);return r}({1:[function(e,n,t){function r(){}function i(e,n,t){return function(){return o(e,[u.now()].concat(c(arguments)),n?null:this,t),n?void 0:this}}var o=e("handle"),a=e(5),c=e(6),f=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(e,n){s[n]=i(p+n,!0,"api")}),s.addPageAction=i(p+"addPageAction",!0),s.setCurrentRouteName=i(p+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,i="function"==typeof n;return o(l+"tracer",[u.now(),e,t],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],t),i)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[u.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=i(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){var t=e.getEntries();t.forEach(function(e){"first-paint"===e.name?d("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&d("timing",["fcp",Math.floor(e.startTime)])})}function i(e,n){var t=e.getEntries();t.length>0&&d("lcp",[t[t.length-1]])}function o(e){e.getEntries().forEach(function(e){e.hadRecentInput||d("cls",[e])})}function a(e){if(e instanceof m&&!g){var n=Math.round(e.timeStamp),t={type:e.type};n<=p.now()?t.fid=p.now()-n:n>p.offset&&n<=Date.now()?(n-=p.offset,t.fid=p.now()-n):n=p.now(),g=!0,d("timing",["fi",n,t])}}function c(e){d("pageHide",[p.now(),e])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var f,u,s,d=e("handle"),p=e("loader"),l=e(4),m=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){f=new PerformanceObserver(r);try{f.observe({entryTypes:["paint"]})}catch(v){}u=new PerformanceObserver(i);try{u.observe({entryTypes:["largest-contentful-paint"]})}catch(v){}s=new PerformanceObserver(o);try{s.observe({type:"layout-shift",buffered:!0})}catch(v){}}if("addEventListener"in document){var g=!1,y=["click","keydown","mousedown","pointerdown","touchstart"];y.forEach(function(e){document.addEventListener(e,a,!1)})}l(c)}},{}],3:[function(e,n,t){function r(e,n){if(!i)return!1;if(e!==i)return!1;if(!n)return!0;if(!o)return!1;for(var t=o.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}n.exports={agent:i,version:o,match:r}},{}],4:[function(e,n,t){function r(e){function n(){e(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,n,!1)}n.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],5:[function(e,n,t){function r(e,n){var t=[],r="",o=0;for(r in e)i.call(e,r)&&(t[o]=n(r,e[r]),o+=1);return t}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],6:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,i=t-n||0,o=Array(i<0?0:i);++r<i;)o[r]=e[n+r];return o}n.exports=r},{}],7:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function i(e){function n(e){return e&&e instanceof r?e:e?f(e,c,o):o()}function t(t,r,i,o){if(!p.aborted||o){e&&e(t,r,i);for(var a=n(i),c=v(t),f=c.length,u=0;u<f;u++)c[u].apply(a,r);var d=s[w[t]];return d&&d.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return d[e]=d[e]||i(t)}function y(e,n){u(e,function(e,t){n=n||"feature",w[t]=n,n in s||(s[n]=[])})}var h={},w={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:y,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var c="nr@context",f=e("gos"),u=e(5),s={},d={},p=n.exports=i();p.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(i.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[n]=r,r}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){i.buffer([e],r),i.emit(e,n,t)}var i=e("ee").get("handle");n.exports=r,r.ee=i},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=E.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();u(w,function(n,t){e[n]||(e[n]=t)});var t=a();f("mark",["onload",t+E.offset],null,"api"),f("timing",["load",t]);var r=l.createElement("script");r.src="https://"+e.agent,n.parentNode.insertBefore(r,n)}}function i(){"complete"===l.readyState&&o()}function o(){f("mark",["domContent",a()+E.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(c=Math.max((new Date).getTime(),c))-E.offset}var c=(new Date).getTime(),f=e("handle"),u=e(5),s=e("ee"),d=e(3),p=window,l=p.document,m="addEventListener",v="attachEvent",g=p.XMLHttpRequest,y=g&&g.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:g,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var h=""+location,w={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1177.min.js"},b=g&&y&&y[m]&&!/CriOS/.test(navigator.userAgent),E=n.exports={offset:c,now:a,origin:h,features:{},xhrWrappable:b,userAgent:d};e(1),e(2),l[m]?(l[m]("DOMContentLoaded",o,!1),p[m]("load",r,!1)):(l[v]("onreadystatechange",i),p[v]("onload",r)),f("mark",["firstbyte",c],null,"api");var x=0,O=e(7)},{}],"wrap-function":[function(e,n,t){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(6),a="nr@original",c=Object.prototype.hasOwnProperty,f=!1;n.exports=function(e,n){function t(e,n,t,i){function nrWrapper(){var r,a,c,f;try{a=this,r=o(arguments),c="function"==typeof t?t(r,a):t||{}}catch(u){p([u,"",[r,a,i],c])}s(n+"start",[r,a,i],c);try{return f=e.apply(a,r)}catch(d){throw s(n+"err",[r,a,d],c),d}finally{s(n+"end",[r,a,f],c)}}return r(e)?e:(n||(n=""),nrWrapper[a]=e,d(e,nrWrapper),nrWrapper)}function u(e,n,i,o){i||(i="");var a,c,f,u="-"===i.charAt(0);for(f=0;f<n.length;f++)c=n[f],a=e[c],r(a)||(e[c]=t(a,u?c+i:i,o,c))}function s(t,r,i){if(!f||n){var o=f;f=!0;try{e.emit(t,r,i,n)}catch(a){p([a,t,r,i])}f=o}}function d(e,n){if(Object.defineProperty&&Object.keys)try{var t=Object.keys(e);return t.forEach(function(t){Object.defineProperty(n,t,{get:function(){return e[t]},set:function(n){return e[t]=n,n}})}),n}catch(r){p([r])}for(var i in e)c.call(e,i)&&(n[i]=e[i]);return n}function p(n){try{e.emit("internal-error",n)}catch(t){}}return e||(e=i),t.inPlace=u,t.flag=a,t}},{}]},{},["loader"]);</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<META Http-Equiv="Cache-Control" Content="no-cache">
+<META Http-Equiv="Pragma" Content="no-cache">
+<META Http-Equiv="Expires" Content="0">
+<title>Index - FEVTUTOR</title>
+<link rel="shortcut icon" type="image/ico" href="/Content/Images/favicon.png">
+<link href='//fonts.googleapis.com/css?family=Quattrocento+Sans:400,700' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({ pageLanguage: 'en', includedLanguages: 'en,es', layout: google.translate.TranslateElement.InlineLayout.SIMPLE }, 'google_translate_element');
+        }
+    </script>
+<link href="/Content/bootstrap.css?v=Z6kGZJRtFwZyANfwoq3huUzbL0dd0nFVW6y_NulzE6M1" rel="stylesheet"/>
+<link href="/Content/icons.css?v=GR-L-EarkhUlck__bmIqbbKAdd6ZzQdA8AwK9UP--ZE1" rel="stylesheet"/>
+<link href="/Content/custom.css?v=SPli2d0NWjOTxwMXQK1v7p0FBJHlGTwUxagSBmW4qzU1" rel="stylesheet"/>
+<link href="/Content/main.css?v=3XwjMvwOe81VeYSaiiU4Oc8d9QaSTEnF0cgZWR9XoY81" rel="stylesheet"/>
+<link href="/Content/plugins.css?v=U8ObZ6Dn5O4xkcnF3sz3I5HzlJc8i_533AjJdh5XPpY1" rel="stylesheet"/>
+<link href="/Content/themes/base/datepicker.css?v=6tmfF_MpqTQ5FAlZ1aLpyca_4Ae1WGflPY5gyqE9JoM1" rel="stylesheet"/>
+<link href="/Content/datatables.css?v=R6wvnTmyRRIs0y8iyaCeX03V6aX4tlBEzohVPPsdcOc1" rel="stylesheet"/>
+<style>
+        #notification {
+            position: fixed;
+            top: 70px;
+            width: 40%;
+            z-index: 105;
+            text-align: center;
+            font-weight: normal;
+            font-size: 14px;
+            font-weight: bold;
+            color: white;
+            background-color: #FF7800;
+            padding: 25px;
+            left: 100%;
+            border-radius: 8px;
+            box-shadow: 3px 5px 7px #b39b9b;
+            opacity: 0.7;
+        }
+
+            #notification span.dismiss {
+                border: 2px solid #FFF;
+                padding: 0 5px;
+                cursor: pointer;
+                float: right;
+                margin-right: 10px;
+            }
+
+            #notification a {
+                color: white;
+                text-decoration: none;
+                font-weight: bold;
+            }
+    </style>
+</head>
+<body class="body1">
+<audio id="NotificationSound" src="/Content/Notification.mp3" type="audio/mpeg"></audio>
+<div id="notification">
+<span id="spnDismiss" class="dismiss"><a title="dismiss this notification">x</a></span>
+<div id="msgNot"></div>
+</div>
+<input type="hidden" value="3" id="hdnTutorType" />
+<input type="hidden" value="true" id="hdnTutorOnlineStatus" />
+<input type="hidden" id="hdnGlobalUserID" value="3282" />
+<input type="hidden" id="hdnGlobalUserRole" value="2" />
+<input type="hidden" id="hdnGlobalUserName" value="Nitheesh Shekhar TH" />
+<input type="hidden" id="hdnGlobalUserTimeZoneID" value="Eastern Standard Time" />
+<input type="hidden" id="hdnGlobalUserTimeZoneAbbrev" value="EST" />
+<input type="hidden" id="hdnHomeBasedTutorResponseTimer" value="180" />
+<input type="hidden" id="hdn_DASH_BOARD_TUTOR_DISPLAY_SESSION_COUNT" value="5" />
+<input type="hidden" value="/Tutor/Tutor/GetModalOnGoingSessions" id="hdnModalOnGoingSessions" />
+
+<div class="modal fade" id="modalloader" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content" style="background: transparent;">
+<div class="modal-body">
+<img style="margin-left:50%" id="loader" src="/Content/Images/loading.gif" />
+</div>
+</div>
+</div>
+</div>
+<div id="divPageLoading" class="fev-page-loader">
+<p>
+<img src="/Content/Images/loading.gif" />
+</p>
+</div>
+
+<div id="header" class="page-navbar">
+
+<div id="navbar-no-collapse" class="navbar-no-collapse fevtutor_nocollapse">
+
+<ul class="nav navbar-nav">
+<li class="toggle-sidebar">
+<a href="javascript:void(0);" class="fevtutor_leftmenu">
+<i class="fa fa-reorder"></i>
+<span class="sr-only">Collapse sidebar</span>
+</a>
+</li>
+<li style="display:none;">
+<a href="javascript:void(0);" class="reset-layout tipB" title="Reset panel position for this page"><i class="fa fa-history"></i></a>
+</li>
+</ul>
+
+<a href="/Tutor/Tutor" class="navbar-brand fevtutor_navbarbrand">
+<img src="/Content/Images/logo.png" class="hidden-xs" alt="FEV TUTOR">
+<img src="/Content/Images/logosm.png" class="visible-xs hiddin-sm hidden-lg hidden-md" alt="FEV TUTOR">
+</a>
+
+<ul class="nav navbar-nav navbar-right">
+<li class="pr15"><div class="hidden-xs hidden-sm mt15"> Welcome Tony G&nbsp;|&nbsp; <span id="spnCurrentDatetime">Friday, September 11, 2020 5:48 AM (EST)</span></div></li>
+<li>
+<a href="https://fevtutor.helpsite.com/#content-container" target="_blank">Help</a>
+</li>
+<li>
+<a href='/Login/LogOff' id="logoff" title="Logout">
+<i class="fa fa-power-off"></i>
+<span class="hidden-xs ml5">Logout</span>
+</a>
+</li>
+</ul>
+
+</div>
+
+</div>
+<div id="wrapper">
+<aside id="sidebar" class="page-sidebar hidden-md hidden-sm hidden-xs">
+<div class="sidebar-inner">
+<div class="sidebar-scrollarea">
+<div class="side-nav">
+<ul class="nav" id="ulLeftMenu">
+<li><a name="aLeftMenuClick" href='/Tutor/Tutor'><i class="l-basic-laptop"></i><span class="txt">Dashboard</span></a></li>
+<li><a name="aLeftMenuClick" href='/Tutor/Tutor/Index' class="active"><i class="l-basic-display"></i><span class="txt">Old Dashboard</span></a></li>
+<li><a name="aLeftMenuClick" href='/Tutor/Tutor/ViewSessionHistory'><i class="l-basic-elaboration-todolist-flagged"></i><span class="txt">Session History</span></a></li>
+<li><a name="aLeftMenuClick" href='/Common/QARedirect?PageName=MyInBox'><i class="l-basic-mail"></i><span class="txt">Mail Box</span></a></li>
+<li><a name="aLeftMenuClick" href='/Tutor/Tutor/ManageTutorTimeSlot'><i class="l-basic-clockwise"></i><span class="txt">Manage Time Slot</span></a></li>
+<li><a name="aLeftMenuClick" href='/Tutor/Tutor/ContentLibrary' target="_blank"><i class="l-ecommerce-cart-content"></i><span class="txt">Content Library</span></a></li>
+<li><a name="aLeftMenuClick" href='/Tutor/Tutor/LMS'><i class="l-basic-helm"></i><span class="txt">LMS</span></a></li>
+<li><a name="aLeftMenuClick" href='/Tutor/Tutor/EditProfile'><i class="l-software-pencil"></i><span class="txt">View / Edit Profile</span></a></li>
+<li><a name="aLeftMenuClick" href='/Common/QARedirect?PageName=QASessionDetail'><i class="l-basic-webpage-txt"></i><span class="txt">QA Session Detail</span></a></li>
+<li><a name="aLeftMenuClick" href='/Common/QARedirect?PageName=RedFlagSessionDetail'><i class="l-basic-flag2"></i><span class="txt">Red Flagged Sessions</span></a></li>
+<li><a name="aLeftMenuClick" href='/Tutor/Tutor/ViewEmptyValueReport'>Empty Session Report - Tutor Feedback </a></li>
+</ul>
+</div>
+</div>
+</div>
+</aside>
+<div class="page-content sidebar-page right-sidebar-page clearfix">
+<div class="page-content-wrapper">
+<div class="page-content-inner">
+<div class="body-content">
+
+<div id="page-header" class="clearfix">
+<div class="page-header">
+<h2>Dashboard</h2>
+</div>
+<div class="page_header_btn_holder ">
+<a onclick="invokePBoard();" class="btn btn-fev mr5" href="javascript:void(0)">Practice whiteboard</a>
+<button disabled type="button" id="btnTodayAssignedSessions" class="btn btn-success relative" title="Click to view today's Assigned Sessions"><div id="spnASCount" class="pr10 assign-value">0</div><span class="ml5 pl20 color-dark">Today Assigned Sessions</span></button>
+<button type="button" class="btn btn-info ml5 min-heit" id="btnRefreshTodayASMain" title="click here refersh the list."><i class="fa fa-refresh" aria-hidden="true"></i></button>
+</div>
+</div>
+
+<input type="hidden" id="hdnTutorID" value="3282" />
+<input type="hidden" id="hdnTutorLiveSelectSessionCount" value="10" />
+<div id="divIndexDashBoard" style="display:none;">
+<div class="mb15">
+<div id="divAggregation">
+</div>
+</div>
+<div class="tabs">
+<ul id="myTab" class="nav nav-tabs">
+<li class="nav active">
+<a href="#home1" data-toggle="tab">Home</a>
+</li>
+</ul>
+<div id="myTabContent2" class="tab-content">
+<div class="tab-pane fade active in" id="home1">
+<div class="panel panel-danger toggle">
+<div class="panel-heading">
+<h4 class="panel-title">OnGoing Sessions</h4>
+</div>
+ <div class="panel-body">
+<div id="divOnGoingSessions" class="row">
+<div class="col-sm-12">
+<div class="fev-overflow-x">
+<table class="table table-bordered dt-responsive non-responsive">
+<thead>
+<tr>
+<th>Is Transferd</th>
+<th>SessionID</th>
+<th>Student Name</th>
+<th>Lesson Objective</th>
+<th>Student Alignment</th>
+<th>Grade</th>
+<th>Subject</th>
+<th>School Name</th>
+<th>Elapsed Minutes</th>
+<th>Join Now</th>
+<th>Device</th>
+<th>Transfer</th>
+<th>Tutor Notes</th>
+<th>Session Notes</th>
+<th>View ILP</th>
+<th>Category</th>
+</tr>
+</thead>
+<tbody>
+<tr><td colspan="13"><div class="m5 alert alert-info text-danger text-center">No Records Found.</div></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="panel panel-success toggle">
+<div class="panel-heading">
+<h4 class="panel-title">
+On-Demand Session Request
+<input type="button" value="Join Now" id="btnOndemandJoinNow" class="btn btn-default text-danger pull-right mlm5 mr5" style="display:none;" />
+</h4>
+</div>
+<div class="panel-body">
+<div id="divOndemandRequestSessions" class="row">
+<div class="col-sm-12">
+<div class="fev-overflow-x">
+<table id="tableOndemand" class="table table-bordered dt-responsive non-responsive">
+<thead>
+<tr>
+<th></th>
+<th>SessionID</th>
+<th>Student</th>
+<th>Lesson Objective</th>
+<th>Course</th>
+<th>School</th>
+<th>Subject</th>
+<th>Grade</th>
+<th>Starting Time</th>
+<th>Duration</th>
+<th>ILP</th>
+<th>Join</th>
+<th>Tutor Notes</th>
+<th>Device</th>
+<th>Session Notes</th>
+<th>Category</th>
+</tr>
+</thead>
+<tbody>
+<tr><td colspan="14"><div class="m5 alert alert-info text-danger text-center">No Records Found.</div></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="panel panel-warning toggle">
+<div class="panel-heading">
+<h4 class="panel-title">
+Assigned Sessions
+</h4>
+</div>
+<div class="panel-body">
+<div id="divAssignedSessions" class="row">
+<div class="col-sm-12">
+<div class="fev-overflow-x">
+<table id="tblUpcoming" class="table table-bordered dt-responsive non-responsive">
+<thead>
+<tr>
+<th></th>
+<th>SessionID</th>
+<th>Student</th>
+<th>Lesson Objective</th>
+<th>Student Alignment</th>
+<th>Course</th>
+<th>School</th>
+<th>Subject</th>
+<th>Grade</th>
+<th>Starting Time</th>
+<th>Duration</th>
+<th>ILP</th>
+<th>Join</th>
+<th>Tutor Notes</th>
+<th>Session Notes</th>
+<th>View ILP</th>
+<th>Device</th>
+<th></th>
+<th>Category</th>
+</tr>
+</thead>
+<tbody>
+<tr><td colspan="16"><div class="m5 alert alert-info text-danger text-center">No Records Found.</div></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="panel panel-info toggle">
+<div class="panel-heading">
+<h4 class="panel-title">
+Waiting Requests
+<input type="button" value="Join Now" id="btnUpComingJoinNow" class="btn btn-default text-danger pull-right mlm5 mr5" style="display:none;" />
+</h4>
+</div>
+<div class="panel-body">
+<div id="divUpcomingSessions" class="row">
+<div class="col-sm-12">
+<div class="fev-overflow-x">
+<table id="tblUpcoming" class="table table-bordered dt-responsive non-responsive">
+<thead>
+<tr>
+<th></th>
+<th>SessionID</th>
+ <th>Student</th>
+<th>Lesson Objective</th>
+<th>Student Alignment</th>
+<th>School</th>
+<th>Subject</th>
+<th>Grade</th>
+<th>Starting Time</th>
+<th>Duration</th>
+<th>ILP</th>
+<th>Join</th>
+<th>Tutor Notes</th>
+<th>Device</th>
+<th>Session Notes</th>
+<th>View ILP</th>
+<th>Category</th>
+</tr>
+</thead>
+<tbody>
+<tr><td colspan="14"><div class="m5 alert alert-info text-danger text-center">No Records Found.</div></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<a href="/Tutor/Tutor/MoreUpcomingSessions" class="text-danger pull-right" target="_blank">More.</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input id="thdnSessionId" name="thdnSessionId" type="hidden" value="" />
+<div id="divIndexOnlineOffline" style="display:block;">
+<input class="btn btn-warning" type="submit" name="button" value="Go Online" onclick="checkOnlineOffLineStatus(true,'/Tutor/Tutor/GetOnlineOffLineStatus');" />
+</div>
+<div class="modal fade" id="modalSessionTransfer" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal">
+<span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+</button>
+<h5 class="modal-title">Select Tutor</h5>
+</div>
+<div class="modal-body">
+<span id="spnMsg" style="color:red"></span>
+<input id="hdnSelectedSessionID" name="hdnSelectedSessionID" type="hidden" value="" />
+<input id="hdnCurrentTutorID" name="hdnCurrentTutorID" type="hidden" value="" />
+<div class="form-group clearfix">
+<div class="row">
+<div class="col-lg-12 col-md-12">
+<textarea class="form-control" cols="28" id="txtReasonToTransfer" name="txtReasonToTransfer" placeholder="Please enter reason for the transfer." rows="3"></textarea>
+</div>
+</div>
+</div>
+</div>
+<div class="modal-footer">
+<button type="button" id="btnAssign" class="btn btn-fev">Assign</button>
+<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+<div class="modal fade" id="modalTransferInfo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog modal-sm">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal">
+<span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+</button>
+<h4 class="modal-title">Info</h4>
+</div>
+<div class="modal-body">
+<span id="infm" style="color: black"></span>
+</div>
+<div class="modal-footer">
+<button type="button" id="btnok" class="btn btn-primary" data-dismiss="modal">Ok</button>
+</div>
+</div>
+</div>
+</div>
+<div class="modal fade" id="modalSessionNotes" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal">
+<span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+</button>
+<h4 class="modal-title" id="SessionNotesTitle">View Notes</h4>
+</div>
+<div class="modal-body">
+<div id="divFileNotesUpload" class="form-group">
+<span id="spnMsg" style="display:none;"></span>
+<div id="SessionNotesHide" style="display:none;">
+<textarea placeholder="Please enter &#39;Notes&#39;." rows="3" id="textareaNotes" class="form-control mt15 mb15"></textarea>
+<input type="file" class="filestyle clearfix" id="fileNotes" multiple="multiple" data-buttontext="Browse & Upload" data-buttonname="btn-danger" data-iconname="fa fa-plus" accept=".xlsx,.xls,image/*,.doc, .docx,.ppt, .pptx,.txt,.pdf" />
+</div>
+<input type="hidden" id="hdnSessionID" />
+<div id="divNotesList" class="mt15"></div>
+</div>
+</div>
+<div class="modal-footer">
+<input class="btn btn-success mr5 mb10" style="display:none;" id="btnUpload" type="button" name="Submit" value="Submit" />
+<input class="btn btn-danger mr5 mb10" type="button" name="Submit" value="Close" data-dismiss="modal" />
+</div>
+</div>
+</div>
+</div>
+<div class="modal fade" id="modalTodaysAssignedSession" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="btn btn-danger pull-right" id="btnRefreshTodayAS" title="click here refersh the list."><i class="fa fa-refresh" aria-hidden="true"></i></button>
+<button type="button" class="close mr10" data-dismiss="modal">
+<span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+</button>
+<h4 class="modal-title" id="hdnTitle"></h4>
+</div>
+<div class="modal-body">
+<div id="divSessions">
+</div>
+</div>
+<div class="modal-footer">
+<input class="btn btn-danger mr5 mb10" type="button" name="Submit" value="Close" data-dismiss="modal" />
+</div>
+</div>
+</div>
+</div>
+<div id="divHoverTodayAs" class="fev-hover-div" style="display:none;"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div style="position:relative">
+<div class="offCanvas clearfix hidden-md hidden-sm hidden-xs">
+<div class="row p0 m0">
+<div class="col-lg-12 pt10 pb10">
+<div class="text-center">
+<div class="mb5"> Copyrights &copy; 2019 <span class="color-blue strong">FEV Tutor</span>. All rights reserved.</div>
+<a href="https://fevtutor.helpsite.com/#content-container" target="_blank">FEV Tutor - Help Site</a>
+<span class="pl15">|</span> <a href="/Home/PrivacyPolicy" target="_blank" class="pl15">Privacy Policy</a>
+</div>
+</div>
+</div>
+</div>
+<div class="clearfix hidden-lg">
+ <div class="row p0 m0">
+<div class="col-lg-12 pt10 pb10">
+<div class="text-center">
+<div class="mb5"> Copyrights &copy; 2019 <span class="color-blue strong">FEV Tutor</span>. All rights reserved.</div>
+<a href="https://fevtutor.helpsite.com/#content-container" target="_blank">FEV Tutor - Help Site</a>
+<span class="pl15">|</span> <a href="/Home/PrivacyPolicy" target="_blank" class="pl15">Privacy Policy</a>
+</div>
+</div>
+</div>
+</div>
+<div style="bottom: 20px; position: absolute; right: 20px;">
+<input type="button" class="btn btn-warning" id="btnGoOnlineMaster" value="Go Online" onclick="checkOnlineOffLineStatus(true,'/Tutor/Tutor/GetOnlineOffLineStatus');" style="display:none;" />
+<input type="button" class="btn btn-warning" id="btnGoOfflineMaster" value="Go Offline" onclick="checkOnlineOffLineStatus(true,'/Tutor/Tutor/GetOnlineOffLineStatus');" style="display:none;" />
+</div>
+</div>
+<div class="modal fade" id="System-Check-Modal" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal">
+<span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+</button>
+<h4 class="modal-title" id="myModalLabel2">System Check</h4>
+</div>
+<div class="modal-body">
+<dl>
+<dd>Student/Parents Please check <a target="_blank" href="/Home/UserSysCheck">here</a></dd>
+<dd>Admin Please check <a target="_blank" href="/Home/AdminSysCheck">here</a></dd>
+</dl>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+<div class="modal fade" id="modalOngoingSession" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title">Ongoing Sessions</h5>
+</div>
+<div class="modal-body">
+<div>You don't have any shift for this time, but you have some on-going sessions.</div>
+<div id="divOnGoingSessions" class="fev-overflow-x">
+</div>
+</div>
+<div class="modal-footer">
+</div>
+</div>
+</div>
+</div>
+<div class="modal fade" id="modalTutorResponceAlert" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal"></button>
+<h5 class="modal-title">Alert</h5>
+</div>
+<div class="modal-body">
+<div>Hi Nitheesh Shekhar TH, you are idle for last <span id="spnWaitingTime">180 Seconds</span>. Please click the ‘OK’ button to confirm your presence</div>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-fev" id="btnOk">Ok</button>
+</div>
+</div>
+</div>
+</div>
+<script src="/Scripts/Jquery/jquery-2.1.1.min.js"></script>
+<script>
+        window.jQuery || document.write('<script src="~/Scripts/libs/jquery-2.1.1.min.js">\x3C/script>')
+    </script>
+<script src="/Scripts/Jquery/ui/1.10.4/jquery-ui.js"></script>
+<script>
+        window.jQuery || document.write('<script src="~/Scripts/libs/jquery-ui-1.10.4.min.js">\x3C/script>')
+    </script>
+<script src="/Scripts/plugins/forms/bootstrap-filestyle/bootstrap-filestyle.js?v=KFWMfxaFUl5adCpnCsVe7qawTHj64H1Ebq1bBA3hUAA1"></script>
+<script src="/Scripts/plugins/forms/fancyselect/fancySelect.js?v=OS-80VkyO3iI538tc4hlHKqABxHEUCr_WI56qsI9NKM1"></script>
+<script src="/Scripts/bootstrap/bootstrap.js?v=_nZbmSLMMWvuhWUlOkgPr-lK4lfq98C9IHkCY6NnOkY1"></script>
+<script src="/Scripts/libs/modernizr.custom.js?v=uvlu1CWgC116JMyK5qwXwneErbO2ZtL-8ZieecW3d8o1"></script>
+<script src="/Scripts/jRespond.min.js?v=ea948Xu__h1nm1_kdgczxUoDw6M8GyrnglUPI2t4Yf41"></script>
+<script src="/Scripts/jquery.dynamic.js?v=XQYmU0Lgd_eH6ltLWMjO6SqrrzoK6LqYfzvssPQwnDs1"></script>
+<script src="/Scripts/main.js?v=YTspnct4HrnSgoY1ikmbww-sFJXqZhaLFnUagX4XzrY1"></script>
+<script src="/Scripts/plugins/core/slimscroll/jquery.slimscroll.min.js?v=gEhMxLPaUkAjs8jY5EKGifzivv9nNddvlXeUnpD6KFg1"></script>
+<script src="/Scripts/plugins/core/slimscroll/jquery.slimscroll.horizontal.min.js?v=AYr2P-66ONfsEi9oW-6EuXFRR405qGUWE6nIT3i9PUY1"></script>
+<script src="/Scripts/plugins/JavaScriptSpellCheck/include.js?v=ODl1aq2Gy-Rp-y_aQtLmIKNguTxLRnkFg-zaPsg42o41"></script>
+<script src="/Scripts/libs/moment.js?v=DD2jwudc3AbdihxmZxvejfCmdrCWLmwSD6LqQxUm9VM1"></script>
+<script src="/Scripts/bootstrap/bootstrap-datepicker.js?v=sUFUqd9caEHZe7AyW3-ce2cidM3tpgM1S8mFl5cyk3Q1"></script>
+<script src="/Scripts/bootstrap/bootstrap-timepicker.min.js?v=qU1G0qdA9-Xqv6SQVWnnOyD0u6EhljwNXgZYmd9xOk81"></script>
+<script src="/Scripts/Entity/common.js?v=6m0eLkODCCIvLT2IdX81TaMFbLfWXtlwt4TZf452Et41"></script>
+<script src="/Scripts/jquery.maskedinput.js?v=t5WwVkrcv5bccNjrbRSrEOfIfXTPWSACkG6FLwxHcME1"></script>
+<script src="/Scripts/Entity/jsonDateConverter.js?v=xAPo3QW3D_QuCLecKX0PnbXKhq5aRwcxYqACV-x7Afs1"></script>
+<script src="/Scripts/jquery.cookie.min.js?v=mf19Zue2sgFA2n8TFoO1V6VZUrqRU4ywsOUQ6XS2Ch01"></script>
+<script src="/Scripts/datatables.js?v=Qh5p8XR_ZxGvwap93AK2Ijj5u9MffnhYo0scVHPUpS41"></script>
+<script src="/Scripts/Entity/tutor.js?v=KjIMukuoKIRL4gmY_c62-fwTuun3q8qfRITN7dHogI01"></script>
+<script src="/Scripts/Entity/feedback.js?v=qBZgSm3pZw9umEobZhrE_LThfrcW_9yBnxzItz6abfU1"></script>
+<script>
+        var isBusyLS = false;
+        $(document).ready(function () {
+            commonLoadSession();
+            setInterval(function () {
+                commonLoadSession();
+            }, 10000);//10 sec
+            /* Ongoing Sessions, JoinNow click */
+            $('#divOnGoingSessions').on('click', '#btnJoinNow', function (e) {
+                    e.preventDefault();
+                    joinSession('/Tutor/Tutor/JoinSessionOngoing', $(this).attr('sessionid'),   'Ongoing');
+                });
+
+            /* Ondemand Sessions, JoinNow click */
+            $('#divOndemandRequestSessions').on('click', '#btnJoinNow', function (e) {
+                    e.preventDefault();
+                    joinSession('/Tutor/Tutor/JoinSession', $(this).attr('sessionid'),  'Ondemand');
+                });
+
+            /* Assigned Sessions, JoinNow click */
+            $('#divAssignedSessions').on('click', '#btnJoinNow', function (e) {
+                    e.preventDefault();
+                    var sessiontype = $(this).attr('sessiontype');
+                    if (sessiontype == 0) {
+                        joinSession('/Tutor/Tutor/JoinSession', $(this).attr('sessionid') , 'Ondemand');
+                    } else {
+                        joinSession('/Tutor/Tutor/JoinSession', $(this).attr('sessionid') , 'Upcoming');
+                    }
+                });
+
+            /* Upcoming Sessions, JoinNow click */
+            $('#divUpcomingSessions').on('click', '#btnJoinNow', function (e) {
+                    e.preventDefault();
+                    joinSession('/Tutor/Tutor/JoinSession', $(this).attr('sessionid') , 'Upcoming');
+                });
+
+            $('#btnOndemandJoinNow').on('click', function (e) {
+                    e.preventDefault();
+                    var sessionid = $('#divOndemandRequestSessions #tableOndemand tbody tr:nth-child(1)').attr('sessionid');
+                    var studentid = $('#divOndemandRequestSessions #tableOndemand tbody tr:nth-child(1)').attr('studentid');
+                    var studentname = $('#divOndemandRequestSessions #tableOndemand tbody tr:nth-child(1)').attr('studentname');
+                    if (sessionid != '') {
+                        joinSession('/Tutor/Tutor/JoinSession', sessionid, studentid, studentname, 'Ondemand');
+                    }
+                });
+
+            $('#btnUpComingJoinNow').on('click', function (e) {
+                    e.preventDefault();
+                    var sessionid = '';
+                    var studentid = '';
+                    var studentname = '';
+
+                    if ($('#divUpcomingSessions #tblUpcoming tbody').find('tr[preferredtutorid="' + $('#hdnTutorID').val() + '"][class=""]').length == 0) {
+                        var tr = $('#divUpcomingSessions #tblUpcoming tbody tr[preferredtutorid!="' + $('#hdnTutorID').val() + '"][class=""]').eq(0);
+                        sessionid = tr.attr('sessionid');
+                        studentid = tr.attr('studentid');
+                        studentname = tr.attr('studentname');
+                    } else {
+                        var tr = $('#divUpcomingSessions #tblUpcoming tbody tr[preferredtutorid="' + $('#hdnTutorID').val() + '"][class=""]').eq(0);
+                        sessionid = tr.attr('sessionid');
+                        studentid = tr.attr('studentid');
+                        studentname = tr.attr('studentname');
+                    }
+
+                    if (sessionid != undefined) {
+                        joinSession('/Tutor/Tutor/JoinSession', sessionid, studentid, studentname, 'Upcoming');
+                    }
+                });
+
+            /* Ondemnad Sessions, file download click */
+            $('#divOndemandRequestSessions').on('click', '#anchorIndexDownloadFile', function (e) {
+                    e.preventDefault();
+                    var filePath = '/' + $(this).attr('filepath');
+                    downloadFile(filePath);
+                });
+
+            /* Upcoming Sessions, file download click */
+            $('#divUpcomingSessions').on('click', '#anchorIndexDownloadFile', function (e) {
+                    e.preventDefault();
+                    var filePath = '/' + $(this).attr('filepath');
+                    downloadFile(filePath);
+                });
+
+            /************* Session Transfer - ongoing - start  *****************/
+            $('#divOnGoingSessions').on('click', '#btnTransfer', function (e) {
+                    e.preventDefault();
+                    var sessionid = $(this).attr('sessionid');
+                    var tutorid = $(this).attr('tutorid');
+
+                $('#modalSessionTransfer #txtReasonToTransfer').val('');
+                $('#modalSessionTransfer #spnMsg').html('');
+                $('#modalSessionTransfer #hdnCurrentTutorID').val('').val(tutorid);
+                $('#modalSessionTransfer #hdnSelectedSessionID').val('').val(sessionid);
+
+                $('#modalSessionTransfer').modal('show');
+                });
+
+            $('#modalSessionTransfer').on('click', '#btnAssign', function (e) {
+                    e.preventDefault();
+                    var currentTutorID = $('#modalSessionTransfer #hdnCurrentTutorID').val();
+                    var reason = $('#modalSessionTransfer #txtReasonToTransfer').val();
+                    var currentSessionID = $('#modalSessionTransfer #hdnSelectedSessionID').val();
+
+                    if (reason != '') {
+                    $.ajax({
+                            type: 'POST',
+                        contentType: 'application/json; charset=utf-8',
+                        url: '/Tutor/Tutor/TranferSession',
+                        data: "{'currentTutorID':'" + currentTutorID + "','currentSessionID':'" + currentSessionID + "','reason':'" + reason + "'}",
+                        async: true,
+                        success: function (data) {
+                                if (data) {
+                                $('#modalSessionTransfer').modal('hide');
+                                $('#modalTransferInfo').modal('show');
+                                $('#modalTransferInfo').find('#infm').html($('#hdnFevResFevConstant256').val());
+                                } else {
+                                $('#modalSessionTransfer').find('#spnMsg').html($('#hdnFevResErrorAlert').val());
+                                }
+                            },
+                        error: function (data) {
+                            $('#modalSessionTransfer').find('#spnMsg').html($('#hdnFevResErrorAlert').val());
+                            }
+                        });
+                    } else {
+                        alert('Please enter Reason.');
+                    $('#modalSessionTransfer #txtReasonToTransfer').focus();
+                    }
+                });
+
+            $('#modalTransferInfo').on('hidden.bs.modal', function () {
+                    commonLoadSession();
+                });
+            /************* Session Transfer - ongoing - end  *****************/
+
+            /************* Session Notes - start  *****************/
+            $('#divOnGoingSessions,#divOndemandRequestSessions,#divAssignedSessions,#divUpcomingSessions').on('click', '#btnUploadFiles', function (e) {
+                    e.preventDefault();
+                    if ($(this).attr("note") == "OnGoingS") {
+                    $('#modalSessionNotes #SessionNotesHide').show();
+                    $('#modalSessionNotes #btnUpload').show();
+                    $('#modalSessionNotes #SessionNotesTitle').html('').html($('#hdnFevResUploadNotesFile').val());
+                    }
+                    var sessionid = $(this).attr('sessionid');
+                $('#modalSessionNotes').find('#divNotesList').html("");
+                $('#modalSessionNotes').modal("show");
+                $("#container").css({
+                        "opacity": "0.3"
+                });
+                $('#modalSessionNotes').find('#hdnSessionID').val(sessionid);
+                $('#modalSessionNotes').find('#divFileNotesUpload').find('div.input-group').find('input[type="text"]').val('');
+                    getNotesFiles(sessionid);
+                });
+
+            $('#modalSessionNotes').on('click', '#btnUpload', function (e) {
+                    e.preventDefault();
+                    var inf = $('#modalSessionNotes').find('#textareaNotes').val();
+                    if (inf.trim() == '') {
+                    $('#modalSessionNotes').find('#spnMsg').html('<p class="fev-color-red">' + $('#hdnFevResFevConstant257').val() + '<p>');
+                    $('#modalSessionNotes').find('#spnMsg').fadeIn(1000).fadeOut(1000);
+                    } else {
+                        if (window.FormData !== undefined) {
+                            var SessionID = $('#modalSessionNotes').find('#hdnSessionID').val();
+                            var Notes = $('#modalSessionNotes').find('#textareaNotes').val();
+                            var files = $('#modalSessionNotes').find("#fileNotes").get(0).files;
+                            var fileData = new FormData();
+                            for (var i = 0; i < files.length; i++) {
+                                fileData.append(files[i].name, files[i]);
+                            }
+                        $.ajax({
+                                url: '/Login/UploadSessionNotes' + '?sessionID=' + SessionID + '&notes=' + Notes + '&userID=' + $('#hdnGlobalUserID').val() + '&userType=' + $('#hdnGlobalUserRole').val() + '&userName=' + $('#hdnGlobalUserName').val(),
+                            type: "POST",
+                            contentType: false,
+                            processData: false,
+                            data: fileData,
+                            async: true,
+                            success: function (data) {
+                                    if (data) {
+                                        getNotesFiles(SessionID);
+                                    $('#modalSessionNotes').find("#textareaNotes").val('');
+                                    $('#modalSessionNotes').find('#spnMsg').html($('#hdnFevResFevConstant59').val());
+                                    $('#modalSessionNotes').find('#spnMsg').fadeIn(1500).fadeOut(1500);
+                                    $('#modalSessionNotes').find('#divFileNotesUpload').find('div.input-group').find('input[type="text"]').val('');
+                                    $('#modalSessionNotes').find("#fileNotes").val('');
+                                    }
+                                    else {
+                                    $('#modalSessionNotes').find('#spnMsg').html($('#hdnFevResErrorAlert').val());
+                                    $('#modalSessionNotes').find('#spnMsg').fadeIn(1500).fadeOut(1500);
+                                    }
+                                },
+                            error: function (err) {
+                                }
+                            });
+                        } else {
+                            alert($('#hdnFevResFevConstant28').val());
+                        }
+                    }
+                });
+
+            $('#modalSessionNotes').on('click', 'a[name="sessionNote"]', function (e) {
+                    e.preventDefault();
+                    var filePath = '/' + $(this).attr('filepath');
+                    downloadFile(filePath);
+                });
+            /************* Session Notes - end  *****************/
+
+            $('#divAssignedSessions,#divUpcomingSessions').on('click', '#btnDecline', function (e) {
+                    e.preventDefault();
+                    var sessionid = $(this).attr('sessionid');
+                $.ajax({
+                        url: '/Login/RemoveSessionPreferedTutor',
+                    dataType: "json",
+                    contentType: 'application/json, charset=utf-8',
+                    data: { sessionID: sessionid },
+                    async: true,
+                    success: function (data) {
+                            if (data == true) {
+                                alert($('#hdnFevResFevConstant51').val());
+                            } else {
+                                alert($('#hdnFevResErrorAlert').val());
+                            }
+                        },
+                    error: function (data) {
+                            alert($('#hdnFevResErrorAlert').val());
+                        }
+                    });
+                });
+
+            $('#modalSessionNotes').on('hidden.bs.modal', function () {
+                $('#modalSessionNotes #SessionNotesHide').hide();
+                $('#modalSessionNotes #btnUpload').hide();
+                $('#modalSessionNotes #SessionNotesTitle').html('').html($('#hdnFevResViewNotes').val());
+                });
+
+            $('#btnTodayAssignedSessions').on('click', function (e) {
+                    e.preventDefault();
+                    commonTodayAssignedSessionsLoad();
+                $('#modalTodaysAssignedSession').modal('show');
+                });
+
+            $('#modalTodaysAssignedSession').on('click', '#btnRefreshTodayAS', function (e) {
+                    e.preventDefault();
+                    commonTodayAssignedSessionsLoad();
+                });
+
+            $('#btnRefreshTodayASMain').on('click', function (e) {
+                    e.preventDefault();
+                    commonTodayAssignedSessionsLoad();
+                });
+
+            $('#modalTodaysAssignedSession').on('mouseover', 'a[name="aAS"]', function (e) {
+                    e.preventDefault();
+                    console.log('mouseover');//divHoverTodayAs
+                    var html = $(this).parent().next().html();
+
+                $('#divHoverTodayAs').html('').html(html);
+
+                    var offset = $(this).offset();
+                    var top = offset.top;
+                    var position = $(this).position();
+                    var pleft = position.left;
+                    var right = $(document).width() - ($(this).offset().left + $(this).outerWidth());
+                $('#divHoverTodayAs').css({
+                        'display': 'inline-block',
+                    //'left': pleft - 30,
+                    'top': top - 30,
+                    'right': right - 200,
+                    'min-width': 100,
+                    'max-width': 300,
+                    'position': 'absolute'
+                });
+                $('#divHoverTodayAs').show();
+
+                });
+
+            $('#modalTodaysAssignedSession').on('mouseout', 'a[name="aAS"]', function (e) {
+                    e.preventDefault();
+                    console.log('mouseout');
+                $('#divHoverTodayAs').html('');
+                $('#divHoverTodayAs').css({
+                        'display': 'none',
+                    //'left': 0,
+                    'top': 0,
+                    'right': 0,
+                    'min-width': 0,
+                    'max-width': 0
+                });
+                $('#divHoverTodayAs').hide();
+                });
+        });
+
+        function invokePBoard() {
+            try {
+                var t = Date.now().toString();
+                window.open("http://focuswb.fevtutor.com/WhiteboardSupportTest/PracticeBoard.aspx?boardfor=2&practiceboard=" + t, "_blank");
+            } catch (e) { console.log(e); }
+        }
+
+        function getNotesFiles(id) {
+            try {
+                $.ajax({
+                    url: '/Login/GetSessionNotes',
+                    dataType: "json",
+                    contentType: 'application/json, charset=utf-8',
+                    data: { sessionID: id },
+                    async: true,
+                    success: function (data) {
+                        if (data.length > 0) {
+                            $('#modalSessionNotes').find('#divNotesList').html("");
+                            var items = '<table class="table table-bordered"><tr><th>File(s)</th><th>Notes</th><th>Created Date</th><th>User Name</th></tr>';
+                            $.each(data, function (i, rw) {
+                              
+                                items += '<tr><td>' + rw.Tags + '</td><td>' + rw.Notes + '</td> ' + '</td><td>' + rw.CreatedDate + '</td> ' + '</td><td>' + rw.UserName + '</td></tr>';
+                            });
+                            items += "</table>";
+                            $('#modalSessionNotes').find('#divNotesList').html(items);
+                            items = "";
+                        }
+                        else {
+                            $('#modalSessionNotes').find('#divNotesList').html('<div class="alert alert-info text-danger text-center">' + $('#hdnFevResEmptyRecord').val() + '</div>');
+                        }
+                    },
+                    error: function (data) {
+                        alert($('#hdnFevResErrorAlert').val());
+                    }
+                });
+            } catch (ex) {
+
+            }
+        }
+    </script>
+<!--[if lt IE 9]>
+      <script type="text/javascript" src="js/libs/excanvas.min.js"></script>
+      <script type="text/javascript" src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <script type="text/javascript" src="js/libs/respond.min.js"></script>
+    <![endif]-->
+
+<script type="text/javascript">
+        var isBusyLSL = false;
+        var timerToOpenModalTutorResponceAlert = 0, timerModalTutorResponceOpenedAlert = 0   , timerToUpdateTutorWaitTime =0;
+        var modalTutorResponceAlertOpend = false;
+        var hdnHomeBasedTutorResponseTimer1 = (parseInt($('#hdnHomeBasedTutorResponseTimer').val()) * 1000);
+        $(document).ready(function () {
+            checkOnlineOffLineStatus(false, '/Tutor/Tutor/GetOnlineOffLineStatus');
+            //getUpComingSessionsCount();
+
+            //------------ Showing Notification for Ongoing Sessions for every 10 secs ---- Start ----------//
+            var tempF;
+            var tempT;
+            setInterval(function () {
+                //getUpComingSessionsCount();//for all tutors upcoming session count in left menu
+                tempT = notifySessionTransfer();
+                if (tempF != tempT) {
+                    tempF = tempT;
+                    if (tempF > 0) {
+                        $('#notification').animate({ left: '58%' }).find('#msgNot').html('You have ' + tempF + ' OnGoing or transfered Sessions(s)');
+                        window.setTimeout(function () { notificationDismiss(); }, 10000);
+                    }
+                }
+            }, 10000);//10 sec
+
+            $('#spnDismiss').click(function () {
+                notificationDismiss();
+            });
+
+            var myvar;
+            tempF = notifySessionTransfer();
+            if (tempF > 0) {
+                $('#notification').delay(1000).animate({ left: '58%' }, 'slow').find('#msgNot').html('You have ' + tempF + ' OnGoing or transfered Sessions(s)');
+            }
+            myvar = window.setTimeout(function () { notificationDismiss(); }, 10000);
+            //------------ Showing Notification for Ongoing Sessions for every 10 secs ---- end ----------//
+
+            timerToOpenModalTutorResponceAlert = window.setInterval(funToOpenModalTutorResponceAlert, hdnHomeBasedTutorResponseTimer1);// 180 secs
+            timerToUpdateTutorWaitTime = window.setInterval(funToCheckTutorLiveSessions, 180000);// 180 secs
+            $('#modalTutorResponceAlert').on('shown.bs.modal', function () {
+                console.log('modalTutorResponceAlert -- opened');
+                modalTutorResponceAlertOpend = true;
+                clearInterval(timerToOpenModalTutorResponceAlert);
+                if ($('#modalOngoingSession #divOnGoingSessions table tbody tr[isOwnSession=yes]').length == 0) {
+                    timerModalTutorResponceOpenedAlert = window.setInterval(funModalTutorResponceOpenedAlert, hdnHomeBasedTutorResponseTimer1);// 180 secs
+                } else {
+                    $('#modalTutorResponceAlert').modal('hide');
+                }
+            });
+
+            $('#modalTutorResponceAlert').on('hide.bs.modal', function () {
+                $('#modalTutorResponceAlert #spnWaitingTime').html('').html($('#hdnHomeBasedTutorResponseTimer').val()/60 + ' Minutes');
+                console.log('modalTutorResponceAlert -- closed');
+                clearInterval(timerModalTutorResponceOpenedAlert);
+                if (modalTutorResponceAlertOpend) {
+                    timerToOpenModalTutorResponceAlert = window.setInterval(funToOpenModalTutorResponceAlert, hdnHomeBasedTutorResponseTimer1);// 180 secs
+                }
+                modalTutorResponceAlertOpend = false;
+            });
+
+            $('#modalTutorResponceAlert').on('click', '#btnOk', function (e) {
+                e.preventDefault();
+                $.ajax({
+                    url: '/Tutor/Tutor/ClickOfTutorResponce',
+                    dataType: 'json',
+                    contentType: 'application/json, charset=utf-8',
+                    data: {},
+                    async: true,
+                    success: function (data) {
+                        if (data == 'login') {
+                            alert($('#hdnFevResSessionExpired').val());
+                            var url = '/Login/LogOff';
+                            window.location = url;
+                        } else {
+                            $('#modalTutorResponceAlert').modal('hide');
+                        }
+                    },
+                    error: function (data) {
+                        console.log('Error in NotifySessionTransfer Action, Tutor Controller')
+                    }
+                });
+            });
+
+            $('#modalOngoingSession #divOnGoingSessions').on('click', '#btnJoinNow', function (e) {
+                e.preventDefault();
+                joinSession('/Tutor/Tutor/JoinSessionOngoing', $(this).attr('sessionid'), 'Ongoing');
+                $('#modalOngoingSession').modal('hide');
+            });
+        });
+
+        function funToOpenModalTutorResponceAlert() {
+            console.log('first timer');
+            if (($('#hdnTutorType').val() == '3' || $('#hdnTutorType').val() == '4') && $('#hdnTutorOnlineStatus').val() == 'true')  {
+                var countVal = 0;
+                var url = '/Tutor/Tutor/GetHomebasedTutorOnGoingSessionCount';
+                $.ajax({
+                    url: url,
+                    type: 'GET',
+                    dataType: 'json',
+                    cache: false,
+                    data: {},
+                    async: false,
+                    success: function (data) {
+                        countVal = data;
+                    },
+                    error: function (e) {
+                        console.log("error in GetHomebasedTutorOnGoingSessionCount ajax " + e);
+
+                        console.log('Request Status: ' + e.status + ' Status Text: ' + e.statusText + ' ' + e.responseText);
+                        countVal = 0;// = 'error-' + e;
+                    }
+                });
+
+                if (countVal > 0) {
+                    console.log('Live session is going');
+                }
+                else if (countVal == 0) {
+                    $('#modalTutorResponceAlert').modal({ backdrop: 'static', keyboard: false });//.modal('show');
+                }
+                else {
+                    alert($('#hdnFevResSessionExpired').val());
+                    var url = '/Login/LogOff';
+                    window.location = url;
+                }
+            } else {
+                clearInterval(timerToOpenModalTutorResponceAlert);
+            }
+        }
+
+        function funToCheckTutorLiveSessions() {
+           // console.log('first timer');
+            if (($('#hdnTutorType').val() == '3' || $('#hdnTutorType').val() == '4') && $('#hdnTutorOnlineStatus').val() == 'true') {
+                var countVal = 0;
+                var url = '/Tutor/Tutor/GetHomebasedTutorOnGoingSessionCount';
+                $.ajax({
+                    url: url,
+                    type: 'GET',
+                    dataType: 'json',
+                    cache: false,
+                    data: {},
+                    async: false,
+                    success: function (data) {
+                        countVal = data;
+                    },
+                    error: function (e) {
+                        console.log("error in GetHomebasedTutorOnGoingSessionCount ajax " + e);
+                        countVal = 0;// = 'error-' + e;
+                    }
+                });
+
+                if (countVal > 0) {
+                    console.log('Live session is going');
+                }
+                else if (countVal == 0) {
+                    var url = '/Tutor/Tutor/HomeTutorUtilizationDetails';
+                    $.ajax({
+                        url: url,
+                        type: 'GET',
+                        dataType: 'json',
+                        cache: false,
+                        data: {},
+                        async: false,
+                        success: function (data) {
+                            console.log(data)
+                        },
+                        error: function (e) {
+                            console.log("error in GetHomebasedTutorOnGoingSessionCount ajax " + e);
+                            
+                        }
+                    });
+                }
+                else {
+                    alert($('#hdnFevResSessionExpired').val());
+                    var url = '/Login/LogOff';
+                    window.location = url;
+                }
+            } else {
+                clearInterval(timerToOpenModalTutorResponceAlert);
+            }
+        }
+
+
+        function funModalTutorResponceOpenedAlert() {
+            console.log('second timer');
+            $.ajax({
+                url: '/Tutor/Tutor/MakeNoteOfTutorResponce',
+                dataType: 'json',
+                contentType: 'application/json, charset=utf-8',
+                data: {},
+                async: true,
+                success: function (data) {
+                    if (data == 'offline') {
+                        checkOnlineOffLineStatus(true, '/Tutor/Tutor/GetOnlineOffLineStatus');
+                        $('#modalTutorResponceAlert').modal('hide');
+                    } else if (data == 'login') {
+                        var url = '/Login/LogOff';
+                        window.location = url;
+                    } else {
+                        var noOfTimes = parseInt(data) + 1;
+                        var hdnHomeBasedTutorResponseTimer = parseInt($('#hdnHomeBasedTutorResponseTimer').val());
+                        if (noOfTimes > 0) {
+                            
+                            //var val = (noOfTimes * hdnHomeBasedTutorResponseTimer);
+                            //var val_mins = Math.floor(val / 60);
+                            //var val_secnds = val - val_mins * 60;
+                            if (noOfTimes == 1) {
+                                var val = (noOfTimes * hdnHomeBasedTutorResponseTimer + 180);
+                                var val_mins = Math.floor(val / 60);
+                                var val_secnds = val - val_mins * 60;
+                            }
+                            else if (noOfTimes == 2) {
+                                var val = (noOfTimes * hdnHomeBasedTutorResponseTimer + 180);
+                                var val_mins = Math.floor(val / 60);
+                                var val_secnds = val - val_mins * 60;
+                            }
+                            else if (noOfTimes == 3) {
+                                var val = (noOfTimes * hdnHomeBasedTutorResponseTimer + 180);
+                                var val_mins = Math.floor(val / 60);
+                                var val_secnds = val - val_mins * 60;
+                            }
+                            else if (noOfTimes == 4) {
+                                var val = (noOfTimes * hdnHomeBasedTutorResponseTimer + 180);
+                                var val_mins = Math.floor(val / 60);
+                                var val_secnds = val - val_mins * 60;
+                            }
+                            
+                            console.log(noOfTimes + ' - ' + val + ' - ' + val_mins + ' - ' + val_secnds);
+
+                            if (val_mins == 0) {
+                                $('#modalTutorResponceAlert #spnWaitingTime').html('').html(val_secnds + ' Seconds');
+                            } else if (val_mins > 0 && val_secnds == 0) {
+                                $('#modalTutorResponceAlert #spnWaitingTime').html('').html(val_mins + ' Minutes');
+                            } else {
+                                $('#modalTutorResponceAlert #spnWaitingTime').html('').html(val_mins + ' Minutes, ' + val_secnds + ' Seconds');
+                            }
+                        }
+                    }
+                },
+                error: function (data) {
+                    console.log('Error in NotifySessionTransfer Action, Tutor Controller')
+                    console.log('Request Status: ' + e.status + ' Status Text: ' + e.statusText + ' ' + e.responseText);
+                }
+            });
+        }
+
+        
+
+        function notifySessionTransfer() {
+            var ret;
+            $.ajax({
+                url: '/Tutor/Tutor/NotifySessionTransfer',
+                dataType: 'json',
+                contentType: 'application/json, charset=utf-8',
+                data: {},
+                async: false,
+                success: function (data) {
+                    if (data != '') {
+                        ret = data;
+                    } else {
+                        console.log('Error in NotifySessionTransfer Action, Tutor Controller 1')
+                    }
+                },
+                error: function (data) {
+                    console.log('Error in NotifySessionTransfer Action, Tutor Controller')
+                }
+            });
+            return ret;
+        }
+
+        function notificationDismiss() {
+            $('#notification').animate({ left: '100%' }, 'fast');
+        }
+
+        /************************** Today Assigned Session Load in Model start ***********************************/
+        function commonTodayAssignedSessionsLoad() {
+            var sessionVal = getSessionID('/Tutor/Tutor/GetSessionID');
+            if (sessionVal != '') {
+                $.ajax({
+                    type: 'POST',
+                    url: '/Tutor/Tutor/TodayASIndexData',
+                    data: {},
+                    dataType: 'json',
+                    contentType: 'application/json, charset=utf-8',
+                    async: true,
+                    success: function (data) {
+                        if (data != null) {
+                            var TodayAssignedSessionsList = data['TodayAssignedSessionsList'];
+                            if (TodayAssignedSessionsList != null && TodayAssignedSessionsList.length > 0) {
+                                loadTodayAssignedSessionData(TodayAssignedSessionsList);
+                            } else {
+                                $('#btnTodayAssignedSessions').prop('disabled', true);
+                                $('#spnASCount').html('').html('0');
+                                $('#modalTodaysAssignedSession #hdnTitle').html('');
+                                $('#modalTodaysAssignedSession #divSessions').html('');
+                            }
+                        } else {
+                            $('#btnTodayAssignedSessions').prop('disabled', true);
+                            $('#spnASCount').html('').html('0');
+                            $('#modalTodaysAssignedSession #hdnTitle').html('');
+                            $('#modalTodaysAssignedSession #divSessions').html('');
+                        }
+                    },
+                    error: function (data) {
+                        $('#btnTodayAssignedSessions').prop('disabled', true);
+                        $('#spnASCount').html('').html('0');
+                        $('#modalTodaysAssignedSession #hdnTitle').html('');
+                        $('#modalTodaysAssignedSession #divSessions').html('');
+                    }
+                });
+            } else {
+                $('#btnTodayAssignedSessions').prop('disabled', true);
+                $('#spnASCount').html('').html('0');
+                $('#modalTodaysAssignedSession #hdnTitle').html('');
+                $('#modalTodaysAssignedSession #divSessions').html('');
+            }
+        }
+
+        function loadTodayAssignedSessionData(TodayAssignedSessionsList) {
+            $('#btnTodayAssignedSessions').prop('disabled', false);
+            $('#spnASCount').html('').html(TodayAssignedSessionsList.length);
+            var html5 = '';
+            for (var i = 0; i < TodayAssignedSessionsList.length; i++) {
+                html5 += '<p><a name="aAS" href="javascript:void(0);">' + TodayAssignedSessionsList[i]['AssignedSessionDisplayText'] + '</a></p>';
+
+                html5 += '<div class="icontent" style="display:none;">';
+                html5 += '<p><span class="strong">SessionID</span> : ' + TodayAssignedSessionsList[i]['SessionID'] + '</p>';
+                html5 += '<p><span class="strong">StudentID</span> : ' + TodayAssignedSessionsList[i]['StudentID'] + '</p>';
+                html5 += '<p><span class="strong">StudentName</span> : ' + TodayAssignedSessionsList[i]['StudentName'] + '</p>';
+                html5 += '<p><span class="strong">LessonObjective</span> : ' + TodayAssignedSessionsList[i]['LessonObjective'] + '</p>';
+                html5 += '</div>';
+            }
+
+            $('#modalTodaysAssignedSession #hdnTitle').html('').html(TodayAssignedSessionsList[0]['TodayDate']);
+            $('#modalTodaysAssignedSession #divSessions').html('').html(html5);
+        }
+        /************************** Today Assigned Session Load in Model end ***********************************/
+
+        /************************** Tutor Sessions Load for Dashboard start ***********************************/
+        function commonLoadSession() {
+
+           
+
+            if ($('#hdnTutorOnlineStatus').val() == 'true') {
+                if (!isBusyLSL) {
+                    isBusyLSL = true;
+                    var sessionVal = getSessionID('/Tutor/Tutor/GetSessionID');
+                    if (sessionVal != '') {
+                        $.ajax({
+                            type: 'POST',
+                            url: '/Tutor/Tutor/IndexData',
+                            data: {},
+                            dataType: 'json',
+                            contentType: 'application/json, charset=utf-8',
+                            async: true,
+                            success: function (data) {
+
+                                if (data != null) {
+                                    var OnGoingSessionsList = data['OnGoingSessionsList'];
+                                    if (OnGoingSessionsList != null && OnGoingSessionsList.length > 0) {
+                                        var html1 = '';
+                                        for (var i = 0; i < OnGoingSessionsList.length; i++) {
+                                            var isOwnSession = 'no';
+                                            if ($('#hdnTutorID').val() == OnGoingSessionsList[i]['CurrentTutorID']) {
+                                                isOwnSession = 'yes';
+                                            }
+
+                                            html1 += '<tr isOwnSession="' + isOwnSession + '">';
+                                            html1 += '<td><span class="text-danger">' + OnGoingSessionsList[i]['TransferedFrom'] + '</span></td>';
+                                            html1 += '<td>' + OnGoingSessionsList[i]['SessionID'] + '</td>';
+                                            html1 += '<td>' + OnGoingSessionsList[i]['StudentName'] + '</td>';
+                                            html1 += '<td>' + OnGoingSessionsList[i]['LessonObjective'] + '</td>';
+                                            html1 += '<td>' + OnGoingSessionsList[i]['StudentAlignment'] + '</td>';
+                                            html1 += '<td>' + OnGoingSessionsList[i]['GradeName'] + '</td>';
+                                            html1 += '<td>' + OnGoingSessionsList[i]['SubjectName'] + '</td>';
+                                            html1 += '<td>' + OnGoingSessionsList[i]['SchoolName'] + '</td>';
+                                            html1 += '<td>' + OnGoingSessionsList[i]['ElapsedMinutes'] + '</td>';
+                                            html1 += '<td><input class="btn btn-success" id="btnJoinNow" type="submit" sessionid="' + OnGoingSessionsList[i]['SessionID'] + '" studentid="' + OnGoingSessionsList[i]['StudentID'] + '" studentname="' + OnGoingSessionsList[i]['StudentName'] + '" value="Join Now" /></td>';
+                                            var transferBtnDisabled = 'disabled';
+                                            html1 += '<td>' + OnGoingSessionsList[i]['DEVICE'] + '</td>';
+                                            html1 += '<td><button class="btn btn-danger" tutorid="' + data['TUTOR_ID'] + '" sessionid="' + OnGoingSessionsList[i]['SessionID'] + '" id="btnTransfer" ' + transferBtnDisabled + '>Transfer</button></td>';
+                                            html1 += '<td><a href="/Tutor/Tutor/Tutornotes?studentID=' + OnGoingSessionsList[i]['StudentID'] + '&subjectID=' + OnGoingSessionsList[i]['SubjectID'] + '" class="btn btn-success" target="_blank">View</a></td>';
+                                            html1 += '<td><input class="btn btn-warning mr5 mb10" type="button" value="Add / View Notes" id="btnUploadFiles" note="OnGoingS" sessionid="' + OnGoingSessionsList[i]['SessionID'] + '" /></td>';
+                                            html1 += '<td><a href="/Tutor/Tutor/StudentILPLesson?studentid=' + OnGoingSessionsList[i]['StudentID'] + '&ilpid=' + OnGoingSessionsList[i]['ILPID'] + '&sessionid=' + OnGoingSessionsList[i]['SessionID'] + '" title="Click on this link to view Student ILP details.">View ILP</a></td>';
+                                            html1 += '<td>' + OnGoingSessionsList[i]['Selected_Category'] + '</td>';
+                                            html1 += '</tr>';
+                                            $('#divOnGoingSessions table tbody').html('').html(html1);
+                                        }
+                                    } else {
+                                        $('#divOnGoingSessions table tbody').html('').html('<tr><td colspan="13"><div class="m5 alert alert-info text-danger text-center">' + $('#hdnFevResEmptyRecord').val() + '</div></td></tr>');
+                                    }
+
+                                    if ($('#divOnGoingSessions table tbody tr').length == 1 && $('#divOnGoingSessions table tbody tr td').attr('colspan') > 0) {
+                                        $('#divOndemandRequestSessions #tableOndemand tbody').removeClass('fev-table-disable');
+                                        $('#divAssignedSessions #tblUpcoming tbody').removeClass('fev-table-disable');
+                                        $('#divUpcomingSessions #tblUpcoming tbody').removeClass('fev-table-disable');
+                                    } else if ($('#divOnGoingSessions table tbody tr[isOwnSession="yes"]').length >= $('#hdnTutorLiveSelectSessionCount').val()) {
+                                        $('#divOndemandRequestSessions #tableOndemand tbody').addClass('fev-table-disable');
+                                        $('#divAssignedSessions #tblUpcoming tbody').addClass('fev-table-disable');
+                                        $('#divUpcomingSessions #tblUpcoming tbody').addClass('fev-table-disable');
+                                    } else {
+                                        $('#divOndemandRequestSessions #tableOndemand tbody').removeClass('fev-table-disable');
+                                        $('#divAssignedSessions #tblUpcoming tbody').removeClass('fev-table-disable');
+                                        $('#divUpcomingSessions #tblUpcoming tbody').removeClass('fev-table-disable');
+                                    }
+
+                                    var OnDemandSessionList = data['OnDemandSessionList'];
+                                    if (OnDemandSessionList != null && OnDemandSessionList.length > 0) {
+                                        var html2 = '';
+                                        for (var i = 0; i < OnDemandSessionList.length; i++) {
+                                            html2 += '<tr sessionid="' + OnDemandSessionList[i]['SessionID'] + '" studentid="' + OnDemandSessionList[i]['StudentID'] + '" studentname="' + OnDemandSessionList[i]['StudentName'] + '">';
+                                            html2 += '<td class="' + OnDemandSessionList[i]['Trclass'] + '"></td>';
+                                            html2 += '<td>' + OnDemandSessionList[i]['SessionID'] + '</td>';
+                                            html2 += '<td>' + OnDemandSessionList[i]['StudentName'] + '</td>';
+                                            html2 += '<td>' + OnDemandSessionList[i]['LessonObjective'] + '</td>';
+                                            html2 += '<td>' + OnDemandSessionList[i]['CourseName'] + '</td>';
+                                            html2 += '<td>' + OnDemandSessionList[i]['SchoolName'] + '</td>';
+                                            html2 += '<td>' + OnDemandSessionList[i]['SubjectName'] + '</td>';
+                                            html2 += '<td>' + OnDemandSessionList[i]['GradeName'] + '</td>';
+                                            html2 += '<td>' + OnDemandSessionList[i]['ScheduledStartTime'].toString() + '</td>';
+                                            html2 += '<td>' + OnDemandSessionList[i]['Duration'] + ' Mins</td>';
+                                            html2 += '<td>' + OnDemandSessionList[i]['ILPID'] + '</td>';
+                                            html2 += '<td><input class="btn btn-success" id="btnJoinNow" type="submit" sessionid="' + OnDemandSessionList[i]['SessionID'] + '" studentid="' + OnDemandSessionList[i]['StudentID'] + '" studentname="' + OnDemandSessionList[i]['StudentName'] + '" value="Join Now" /></td>';
+                                            html2 += '<td><a href="/Tutor/Tutor/Tutornotes?studentID=' + OnDemandSessionList[i]['StudentID'] + '&subjectID=' + OnDemandSessionList[i]['SubjectID'] + '" class="btn btn-success" target="_blank">View</a></td>';
+                                            html2 += '<td>' + OnDemandSessionList[i]['DEVICE'] + '</td>';
+                                            html2 += '<td><input class="btn btn-warning mr5 mb10" type="button" value="View Notes" id="btnUploadFiles" sessionid="' + OnDemandSessionList[i]['SessionID'] + '" /></td>';
+                                            html2 += '<td>' + OnDemandSessionList[i]['Selected_Category'] + '</td>';
+                                            html2 += '</tr>';
+                                            $('#divOndemandRequestSessions #tableOndemand tbody').html('').html(html2);
+                                        }
+                                    } else {
+                                        $('#divOndemandRequestSessions #tableOndemand tbody').html('').html('<tr><td colspan="14"><div class="m5 alert alert-info text-danger text-center">' + $('#hdnFevResEmptyRecord').val() + '</div></td></tr>');
+                                    }
+
+                                    var AssignedSessionsList = data['AssignedSessionsList'];
+                                    if (AssignedSessionsList != null && AssignedSessionsList.length > 0) {
+                                        var html3 = '';
+                                        for (var i = 0; i < AssignedSessionsList.length; i++) {
+                                            html3 += '<tr class="' + AssignedSessionsList[i]['TrDisabledClass'] + '" StudentPickedStatus="' + AssignedSessionsList[i]['StudentPickedStatus'] + '">';
+                                            html3 += '<td class="' + AssignedSessionsList[i]['Trclass'] + '"></td>';
+                                            html3 += '<td>' + AssignedSessionsList[i]['SessionID'] + '</td>';
+                                            html3 += '<td>' + AssignedSessionsList[i]['StudentName'] + '</td>';
+                                            html3 += '<td>' + AssignedSessionsList[i]['LessonObjective'] + '</td>';
+                                            html3 += '<td>' + AssignedSessionsList[i]['StudentAlignment'] + '</td>';
+                                            html3 += '<td>' + AssignedSessionsList[i]['CourseName'] + '</td>';
+                                            html3 += '<td>' + AssignedSessionsList[i]['SchoolName'] + '</td>';
+                                            html3 += '<td>' + AssignedSessionsList[i]['SubjectName'] + '</td>';
+                                            html3 += '<td>' + AssignedSessionsList[i]['GradeName'] + '</td>';
+                                            html3 += '<td>' + AssignedSessionsList[i]['ScheduledStartTime'] + '</td>';
+                                            html3 += '<td>' + AssignedSessionsList[i]['Duration'] + ' Mins</td>';
+                                            html3 += '<td>' + AssignedSessionsList[i]['ILPID'] + '</td>';
+                                            html3 += '<td><input class="btn btn-success ' + AssignedSessionsList[i]['BtnAnimateClass'] + '" id="btnJoinNow" type="submit" sessiontype="' + AssignedSessionsList[i]['SessionType'] + '" sessionid="' + AssignedSessionsList[i]['SessionID'] + '" studentid="' + AssignedSessionsList[i]['StudentID'] + '" studentname="' + AssignedSessionsList[i]['StudentName'] + '" value="Join Now" ' + AssignedSessionsList[i]['BtnDisabledValue'] + ' /></td>';
+                                            html3 += '<td><a href="/Tutor/Tutor/Tutornotes?studentID=' + AssignedSessionsList[i]['StudentID'] + '&subjectID=' + AssignedSessionsList[i]['SubjectID'] + '" class="btn btn-success" target="_blank">View</a></td>';
+                                            html3 += '<td><input class="btn btn-warning mr5 mb10" type="button" value="View Notes" id="btnUploadFiles" sessionid="' + AssignedSessionsList[i]['SessionID'] + '"/></td>';
+                                            html3 += '<td><a href="/Tutor/Tutor/StudentILPLesson?studentid=' + AssignedSessionsList[i]['StudentID'] + '&ilpid=' + AssignedSessionsList[i]['ILPID'] + '&sessionid=' + AssignedSessionsList[i]['SessionID'] + '" title="Click on this link to view Student ILP details.">View ILP</a></td>';
+                                            html3 += '<td>' + AssignedSessionsList[i]['DEVICE'] + '</td>';
+                                            html3 += '<td><input type="button" id="btnDecline" value="Decline" class="btn btn-danger" sessionid="' + AssignedSessionsList[i]['SessionID'] + '" /></td>';
+                                            html3 += '<td>' + AssignedSessionsList[i]['Selected_Category'] + '</td>';
+                                            html3 += '</tr>';
+                                            $('#divAssignedSessions #tblUpcoming tbody').html('').html(html3);
+                                        }
+                                    } else {
+                                        $('#divAssignedSessions #tblUpcoming tbody').html('').html('<tr><td colspan="16"><div class="m5 alert alert-info text-danger text-center">' + $('#hdnFevResEmptyRecord').val() + '</div></td></tr>');
+                                    }
+
+                                    var UpComingSessionsList = data['UpComingSessionsList'];
+                                    if (UpComingSessionsList != null && UpComingSessionsList.length > 0) {
+                                        var html4 = '';
+                                        for (var i = 0; i < UpComingSessionsList.length; i++) {
+                                            html4 += '<tr class="' + UpComingSessionsList[i]['TrDisabledClass'] + '" style="display:' + UpComingSessionsList[i]['TrDisplay'] + ';" sessionid="' + UpComingSessionsList[i]['SessionID'] + '" studentid="' + UpComingSessionsList[i]['StudentID'] + '" studentname="' + UpComingSessionsList[i]['StudentName'] + '" preferredtutorid="' + UpComingSessionsList[i]['PreferredTutorID'] + '">';
+                                            html4 += '<td class="' + UpComingSessionsList[i]['Trclass'] + '"></td>';
+                                            html4 += '<td>' + UpComingSessionsList[i]['SessionID'] + '</td>';
+                                            html4 += '<td>' + UpComingSessionsList[i]['StudentName'] + '</td>';
+                                            html4 += '<td>' + UpComingSessionsList[i]['LessonObjective'] + '</td>';
+                                            html4 += '<td>' + UpComingSessionsList[i]['StudentAlignment'] + '</td>';
+                                            html4 += '<td>' + UpComingSessionsList[i]['SchoolName'] + '</td>';
+                                            html4 += '<td>' + UpComingSessionsList[i]['SubjectName'] + '</td>';
+                                            html4 += '<td>' + UpComingSessionsList[i]['GradeName'] + '</td>';
+                                            html4 += '<td>' + UpComingSessionsList[i]['ScheduledStartTime'] + '</td>';
+                                            html4 += '<td>' + UpComingSessionsList[i]['Duration'] + ' Mins</td>';
+                                            html4 += '<td>' + UpComingSessionsList[i]['ILPID'] + '</td>';
+                                            html4 += '<td><input class="btn btn-success" id="btnJoinNow" type="submit" sessionid="' + UpComingSessionsList[i]['SessionID'] + '" studentid="' + UpComingSessionsList[i]['StudentID'] + '" studentname="' + UpComingSessionsList[i]['StudentName'] + '" value="Join Now" ' + UpComingSessionsList[i]['BtnDisabledValue'] + ' /></td>';
+                                            html4 += '<td><a href="/Tutor/Tutor/Tutornotes?studentID=' + UpComingSessionsList[i]['StudentID'] + '&subjectID=' + UpComingSessionsList[i]['SubjectID'] + '" class="btn btn-success" target="_blank">View</a></td>';
+                                            html4 += '<td>' + UpComingSessionsList[i]['DEVICE'] + '</td>';
+                                            html4 += '<td><input class="btn btn-warning mr5 mb10" type="button" value="View Notes" id="btnUploadFiles" sessionid="' + UpComingSessionsList[i]['SessionID'] + '" /></td>';
+                                            html4 += '<td><a href="/Tutor/Tutor/StudentILPLesson?studentid=' + UpComingSessionsList[i]['StudentID'] + '&ilpid=' + UpComingSessionsList[i]['ILPID'] + '&sessionid=' + UpComingSessionsList[i]['SessionID'] + '" title="Click on this link to view Student ILP details.">View ILP</a></td>';
+                                            html4 += '<td>' + UpComingSessionsList[i]['Selected_Category'] + '</td>';
+                                            html4 += '</tr>';
+                                            $('#divUpcomingSessions #tblUpcoming tbody').html('').html(html4);
+                                        }
+                                    } else {
+                                        $('#divUpcomingSessions #tblUpcoming tbody').html('').html('<tr><td colspan="14"><div class="m5 alert alert-info text-danger text-center">' + $('#hdnFevResEmptyRecord').val() + '</div></td></tr>');
+                                    }
+
+                                    if ($('#divUpcomingSessions #tblUpcoming tbody tr:visible').length == 0) {
+                                        $('#divUpcomingSessions #tblUpcoming tbody').html('').html('<tr><td colspan="14"><div class="m5 alert alert-info text-danger text-center">' + $('#hdnFevResEmptyRecord').val() + '</div></td></tr>');
+                                    }
+
+                                } else {
+                                    var divVal = $('#hdnFevResEmptyRecord').val();
+                                    var classVal = 'm5 alert alert-info text-danger text-center';
+                                    if (data == 'login') {
+                                        divVal = $('#hdnFevResSessionExpired').val();
+                                        classVal = 'm5 alert alert-danger text-info text-center';
+                                    }
+                                    $('#divOnGoingSessions table tbody').html('').html('<tr><td colspan="13"><div class="' + classVal + '">' + divVal + '</div></td></tr>');
+                                    $('#divOndemandRequestSessions #tableOndemand tbody').html('').html('<tr><td colspan="14"><div class="' + classVal + '">' + divVal + '</div></td></tr>');
+                                    $('#divAssignedSessions #tblUpcoming tbody').html('').html('<tr><td colspan="16"><div class="' + classVal + '">' + divVal + '</div></td></tr>');
+                                    $('#divUpcomingSessions #tblUpcoming tbody').html('').html('<tr><td colspan="14"><div class="' + classVal + '">' + divVal + '</div></td></tr>');
+                                }
+                                isBusyLSL = false;
+                            },
+                            error: function (event, xhr, options) {
+                                console.log("commonLoadSession error --" + event + ":::::::" + xhr + ":::::::" + options);
+                                var divVal = $('#hdnFevResAjaxCallError').val();
+                                var classVal = 'm5 alert alert-info text-danger text-center';
+                                $('#divOnGoingSessions table tbody').html('').html('<tr><td colspan="13"><div class="' + classVal + '">' + divVal + '</div></td></tr>');
+                                $('#divOndemandRequestSessions #tableOndemand tbody').html('').html('<tr><td colspan="14"><div class="' + classVal + '">' + divVal + '</div></td></tr>');
+                                $('#divAssignedSessions #tblUpcoming tbody').html('').html('<tr><td colspan="16"><div class="' + classVal + '">' + divVal + '</div></td></tr>');
+                                $('#divUpcomingSessions #tblUpcoming tbody').html('').html('<tr><td colspan="14"><div class="' + classVal + '">' + divVal + '</div></td></tr>');
+                                isBusyLSL = false;
+                            }
+                        });
+                    } else {
+                        var divVal = $('#hdnFevResSessionExpired').val();
+                        var classVal = 'm5 alert alert-danger text-info text-center';
+                        $('#divOnGoingSessions table tbody').html('').html('<tr><td colspan="13"><div class="' + classVal + '">' + divVal + '</div></td></tr>');
+                        $('#divOndemandRequestSessions #tableOndemand tbody').html('').html('<tr><td colspan="14"><div class="' + classVal + '">' + divVal + '</div></td></tr>');
+                        $('#divAssignedSessions #tblUpcoming tbody').html('').html('<tr><td colspan="16"><div class="' + classVal + '">' + divVal + '</div></td></tr>');
+                        $('#divUpcomingSessions #tblUpcoming tbody').html('').html('<tr><td colspan="14"><div class="' + classVal + '">' + divVal + '</div></td></tr>');
+                        isBusyLSL = false;
+                    }
+                }
+            }
+        }
+        /************************** Tutor Sessions Load for Dashboard end ***********************************/
+
+        function asyncCommonLoadSessionDataNew() {
+            asyncLoadSessionCount();
+            if ($('#divOnGoingCollapse').is(':visible')) {
+                asyncLoadOngoingSessions();
+            } else if ($('#divOnDemandCollapse').is(':visible')) {
+                asyncLoadOndemandSessions();
+            } else if ($('#divAssignedCollapse').is(':visible')) {
+                asyncLoadAssignedSessions();
+            } else if ($('#divUpcomingCollapse').is(':visible')) {
+                asyncLoadWaitingSessions();
+            }
+        }
+
+        var isBusyCount = false, isBusyOngoing = false, isBusyOndemand = false, isBusyAssigned = false, isBusyWaiting = false;
+        function asyncLoadSessionCount() {
+            if ($('#hdnTutorOnlineStatus').val() == 'true') {
+                if (!isBusyCount) {
+                    isBusyCount = true;
+                    var sessionVal = getSessionID('/Tutor/Tutor/GetSessionID');
+                    if (sessionVal != '') {
+                        $.ajax({
+                            type: 'POST',
+                            url: '/Tutor/Tutor/AsyncIndexDataNewCommonCount',
+                            data: "{'sessionType':''}",
+                            dataType: 'json',
+                            contentType: 'application/json, charset=utf-8',
+                            async: true,
+                            success: function (data) {
+                                if (data != null) {
+                                    $('#spnOnGoingSessionCountCollapse').html(data['OnGoingSessionsCount']);
+                                    $('#spnOnDemandSessionCountCollapse').html(data['OnDemandSessionsCount']);
+                                    $('#spnAssignedSessionCountCollapse').html(data['AssignedSessionsCount']);
+                                    $('#spnUpcomingSessionCountCollapse').html(data['UpComingSessionsCount']);
+
+                                    if (data['IsAssignedSessionJoined'] != '0') {
+                                        $('#divAssignedCollapse').parent().find('.panel-heading').addClass('fev-assign-session-alert');
+                                    } else {
+                                        $('#divAssignedCollapse').parent().find('.panel-heading').removeClass('fev-assign-session-alert');
+                                    }
+                                } else {
+                                    $('#spnOnGoingSessionCountCollapse').html(0);
+                                    $('#spnOnDemandSessionCountCollapse').html(0);
+                                    $('#spnAssignedSessionCountCollapse').html(0);
+                                    $('#spnUpcomingSessionCountCollapse').html(0);
+                                    $('#divAssignedCollapse').parent().find('.panel-heading').removeClass('fev-assign-session-alert');
+                                }
+                                isBusyCount = false;
+                            },
+                            error: function (event, xhr, options) {
+                                isBusyCount = false;
+                                $('#spnOnGoingSessionCountCollapse').html(0);
+                                $('#spnOnDemandSessionCountCollapse').html(0);
+                                $('#spnAssignedSessionCountCollapse').html(0);
+                                $('#spnUpcomingSessionCountCollapse').html(0);
+                                $('#divAssignedCollapse').parent().find('.panel-heading').removeClass('fev-assign-session-alert');
+                            }
+                        });
+                    } else {
+                        isBusyCount = false;
+                        $('#spnOnGoingSessionCountCollapse').html(0);
+                        $('#spnOnDemandSessionCountCollapse').html(0);
+                        $('#spnAssignedSessionCountCollapse').html(0);
+                        $('#spnUpcomingSessionCountCollapse').html(0);
+                        $('#divAssignedCollapse').parent().find('.panel-heading').removeClass('fev-assign-session-alert');
+                    }
+                }
+            }
+        }
+
+        function asyncLoadOngoingSessions() {
+            if ($('#hdnTutorOnlineStatus').val() == 'true') {
+                if (!isBusyOngoing) {
+                    isBusyOngoing = true;
+                    var sessionVal = getSessionID('/Tutor/Tutor/GetSessionID');
+                    if (sessionVal != '') {
+                        $.ajax({
+                            type: 'POST',
+                            url: '/Tutor/Tutor/AsyncIndexDataNewOngoing',
+                            data: {},
+                            dataType: 'json',
+                            contentType: 'application/json, charset=utf-8',
+                            async: true,
+                            success: function (data) {
+                                if (data != null) {
+                                    var OnGoingSessionsList = data;
+                                    if (OnGoingSessionsList != null && OnGoingSessionsList.length > 0) {
+                                        var html1 = '';
+                                        for (var i = 0; i < OnGoingSessionsList.length; i++) {
+                                            var isOwnSession = 'no';
+                                            if ($('#hdnTutorID').val() == OnGoingSessionsList[i]['CurrentTutorID']) {
+                                                isOwnSession = 'yes';
+                                            }
+
+                                            html1 += '<tr isOwnSession="' + isOwnSession + '">';
+                                            html1 += '<td><span class="text-danger">' + OnGoingSessionsList[i]['TransferedFrom'] + '</span></td>';
+                                            html1 += '<td>' + OnGoingSessionsList[i]['SessionID'] + '</td>';
+                                            html1 += '<td>' + OnGoingSessionsList[i]['StudentName'] + '</td>';
+                                            html1 += '<td>' + OnGoingSessionsList[i]['LessonObjective'] + '</td>';
+                                            html1 += '<td>' + OnGoingSessionsList[i]['StudentAlignment'] + '</td>';
+                                            html1 += '<td>' + OnGoingSessionsList[i]['GradeName'] + '</td>';
+                                            html1 += '<td>' + OnGoingSessionsList[i]['SubjectName'] + '</td>';
+                                            html1 += '<td>' + OnGoingSessionsList[i]['SchoolName'] + '</td>';
+                                            html1 += '<td>' + OnGoingSessionsList[i]['ElapsedMinutes'] + '</td>';
+                                            html1 += '<td><input class="btn btn-success" id="btnJoinNow" type="submit" sessionid="' + OnGoingSessionsList[i]['SessionID'] + '" studentid="' + OnGoingSessionsList[i]['StudentID'] + '" studentname="' + OnGoingSessionsList[i]['StudentName'] + '" value="Join Now" /></td>';
+                                            var transferBtnDisabled = 'disabled';
+                                            html1 += '<td>' + OnGoingSessionsList[i]['DEVICE'] + '</td>';
+                                            html1 += '<td><button class="btn btn-danger" tutorid="' + data['TUTOR_ID'] + '" sessionid="' + OnGoingSessionsList[i]['SessionID'] + '" id="btnTransfer" ' + transferBtnDisabled + '>Transfer</button></td>';
+                                            html1 += '<td><a href="/Tutor/Tutor/Tutornotes?studentID=' + OnGoingSessionsList[i]['StudentID'] + '&subjectID=' + OnGoingSessionsList[i]['SubjectID'] + '" class="btn btn-success" target="_blank">View</a></td>';
+                                            html1 += '<td><input class="btn btn-warning mr5 mb10" type="button" value="Add / View Notes" id="btnUploadFiles" note="OnGoingS" sessionid="' + OnGoingSessionsList[i]['SessionID'] + '" /></td>';
+                                            html1 += '<td><a href="/Tutor/Tutor/StudentILPLesson?studentid=' + OnGoingSessionsList[i]['StudentID'] + '&ilpid=' + OnGoingSessionsList[i]['ILPID'] + '&sessionid=' + OnGoingSessionsList[i]['SessionID'] + '" title="Click on this link to view Student ILP details.">View ILP</a></td>';
+                                            html1 += '<td>' + OnGoingSessionsList[i]['Selected_Category'] + '</td>';
+                                            html1 += '</tr>';
+                                            $('#divOnGoingSessions table tbody').html('').html(html1);
+                                        }
+                                    } else {
+                                        $('#divOnGoingSessions table tbody').html('').html('<tr><td colspan="13"><div class="m5 alert alert-info text-danger text-center">' + $('#hdnFevResEmptyRecord').val() + '</div></td></tr>');
+                                    }
+
+                                    if ($('#divOnGoingSessions table tbody tr').length == 1 && $('#divOnGoingSessions table tbody tr td').attr('colspan') > 0) {
+                                        $('#divOndemandRequestSessions #tableOndemand tbody').removeClass('fev-table-disable');
+                                        $('#divAssignedSessions #tblUpcoming tbody').removeClass('fev-table-disable');
+                                        $('#divUpcomingSessions #tblUpcoming tbody').removeClass('fev-table-disable');
+                                    } else if ($('#divOnGoingSessions table tbody tr[isOwnSession="yes"]').length >= $('#hdnTutorLiveSelectSessionCount').val()) {
+                                        $('#divOndemandRequestSessions #tableOndemand tbody').addClass('fev-table-disable');
+                                        $('#divAssignedSessions #tblUpcoming tbody').addClass('fev-table-disable');
+                                        $('#divUpcomingSessions #tblUpcoming tbody').addClass('fev-table-disable');
+                                    } else {
+                                        $('#divOndemandRequestSessions #tableOndemand tbody').removeClass('fev-table-disable');
+                                        $('#divAssignedSessions #tblUpcoming tbody').removeClass('fev-table-disable');
+                                        $('#divUpcomingSessions #tblUpcoming tbody').removeClass('fev-table-disable');
+                                    }
+                                } else {
+                                    var divVal = $('#hdnFevResEmptyRecord').val();
+                                    var classVal = 'm5 alert alert-info text-danger text-center';
+                                    if (data == 'login') {
+                                        divVal = $('#hdnFevResSessionExpired').val();
+                                        classVal = 'm5 alert alert-danger text-info text-center';
+                                    }
+                                    $('#divOnGoingSessions table tbody').html('').html('<tr><td colspan="13"><div class="' + classVal + '">' + divVal + '</div></td></tr>');
+                                }
+                                isBusyOngoing = false;
+                            },
+                            error: function (event, xhr, options) {
+                                isBusyOngoing = false;
+                                var divVal = $('#hdnFevResAjaxCallError').val();
+                                var classVal = 'm5 alert alert-info text-danger text-center';
+                                $('#divOnGoingSessions table tbody').html('').html('<tr><td colspan="13"><div class="' + classVal + '">' + divVal + '</div></td></tr>');
+                            }
+                        });
+                    } else {
+                        isBusyOngoing = false;
+                        var divVal = $('#hdnFevResSessionExpired').val();
+                        var classVal = 'm5 alert alert-danger text-info text-center';
+                        $('#divOnGoingSessions table tbody').html('').html('<tr><td colspan="13"><div class="' + classVal + '">' + divVal + '</div></td></tr>');
+                    }
+                }
+            }
+        }
+
+        function asyncLoadOndemandSessions() {
+            if ($('#hdnTutorOnlineStatus').val() == 'true') {
+                if (!isBusyOndemand) {
+                    isBusyOndemand = true;
+                    var sessionVal = getSessionID('/Tutor/Tutor/GetSessionID');
+                    if (sessionVal != '') {
+                        $.ajax({
+                            type: 'POST',
+                            url: '/Tutor/Tutor/AsyncIndexDataNewOndemand',
+                            data: "{'ondemandCount':'" + ($('#txtOndemandSessionCount').val() == '' ? $('#hdn_DASH_BOARD_TUTOR_DISPLAY_SESSION_COUNT').val() : $('#txtOndemandSessionCount').val()) + "'}",
+                            dataType: 'json',
+                            contentType: 'application/json, charset=utf-8',
+                            async: true,
+                            success: function (data) {
+                                if (data != null) {
+                                    var OnDemandSessionList = data;
+                                    if (OnDemandSessionList != null && OnDemandSessionList.length > 0) {
+                                        var html2 = '';
+                                        for (var i = 0; i < OnDemandSessionList.length; i++) {
+                                            html2 += '<tr sessionid="' + OnDemandSessionList[i]['SessionID'] + '" studentid="' + OnDemandSessionList[i]['StudentID'] + '" studentname="' + OnDemandSessionList[i]['StudentName'] + '">';
+                                            html2 += '<td class="' + OnDemandSessionList[i]['Trclass'] + '"></td>';
+                                            html2 += '<td>' + OnDemandSessionList[i]['SessionID'] + '</td>';
+                                            html2 += '<td>' + OnDemandSessionList[i]['StudentName'] + '</td>';
+                                            html2 += '<td>' + OnDemandSessionList[i]['LessonObjective'] + '</td>';
+                                            html2 += '<td>' + OnDemandSessionList[i]['CourseName'] + '</td>';
+                                            html2 += '<td>' + OnDemandSessionList[i]['SchoolName'] + '</td>';
+                                            html2 += '<td>' + OnDemandSessionList[i]['SubjectName'] + '</td>';
+                                            html2 += '<td>' + OnDemandSessionList[i]['GradeName'] + '</td>';
+                                            html2 += '<td>' + OnDemandSessionList[i]['ScheduledStartTime'].toString() + '</td>';
+                                            html2 += '<td>' + OnDemandSessionList[i]['Duration'] + ' Mins</td>';
+                                            html2 += '<td>' + OnDemandSessionList[i]['ILPID'] + '</td>';
+                                            html2 += '<td><input class="btn btn-success" id="btnJoinNow" type="submit" sessionid="' + OnDemandSessionList[i]['SessionID'] + '" studentid="' + OnDemandSessionList[i]['StudentID'] + '" studentname="' + OnDemandSessionList[i]['StudentName'] + '" value="Join Now" /></td>';
+                                            html2 += '<td><a href="/Tutor/Tutor/Tutornotes?studentID=' + OnDemandSessionList[i]['StudentID'] + '&subjectID=' + OnDemandSessionList[i]['SubjectID'] + '" class="btn btn-success" target="_blank">View</a></td>';
+                                            html2 += '<td>' + OnDemandSessionList[i]['DEVICE'] + '</td>';
+                                            html2 += '<td><input class="btn btn-warning mr5 mb10" type="button" value="View Notes" id="btnUploadFiles" sessionid="' + OnDemandSessionList[i]['SessionID'] + '" /></td>';
+                                            html2 += '<td>' + OnDemandSessionList[i]['Selected_Category'] + '</td>';
+                                            html2 += '</tr>';
+                                            $('#divOndemandRequestSessions #tableOndemand tbody').html('').html(html2);
+                                        }
+                                    } else {
+                                        $('#divOndemandRequestSessions #tableOndemand tbody').html('').html('<tr><td colspan="14"><div class="m5 alert alert-info text-danger text-center">' + $('#hdnFevResEmptyRecord').val() + '</div></td></tr>');
+                                    }
+                                } else {
+                                    var divVal = $('#hdnFevResEmptyRecord').val();
+                                    var classVal = 'm5 alert alert-info text-danger text-center';
+                                    if (data == 'login') {
+                                        divVal = $('#hdnFevResSessionExpired').val();
+                                        classVal = 'm5 alert alert-danger text-info text-center';
+                                    }
+                                    $('#divOndemandRequestSessions #tableOndemand tbody').html('').html('<tr><td colspan="14"><div class="' + classVal + '">' + divVal + '</div></td></tr>');
+                                }
+                                isBusyOndemand = false;
+                            },
+                            error: function (event, xhr, options) {
+                                isBusyOndemand = false;
+                                var divVal = $('#hdnFevResAjaxCallError').val();
+                                var classVal = 'm5 alert alert-info text-danger text-center';
+                                $('#divOndemandRequestSessions #tableOndemand tbody').html('').html('<tr><td colspan="14"><div class="' + classVal + '">' + divVal + '</div></td></tr>');
+                            }
+                        });
+                    } else {
+                        isBusyOndemand = false;
+                        var divVal = $('#hdnFevResSessionExpired').val();
+                        var classVal = 'm5 alert alert-danger text-info text-center';
+                        $('#divOndemandRequestSessions #tableOndemand tbody').html('').html('<tr><td colspan="14"><div class="' + classVal + '">' + divVal + '</div></td></tr>');
+                    }
+                }
+            }
+        }
+
+        function asyncLoadAssignedSessions() {
+            if ($('#hdnTutorOnlineStatus').val() == 'true') {
+                if (!isBusyAssigned) {
+                    isBusyAssigned = true;
+                    var sessionVal = getSessionID('/Tutor/Tutor/GetSessionID');
+                    if (sessionVal != '') {
+                        $.ajax({
+                            type: 'POST',
+                            url: '/Tutor/Tutor/AsyncIndexDataNewAssigned',
+                            data: "{'assignedCount':'" + ($('#txtAssignedSessionCount').val() == '' ? $('#hdn_DASH_BOARD_TUTOR_DISPLAY_SESSION_COUNT').val() : $('#txtAssignedSessionCount').val()) + "'}",
+                            dataType: 'json',
+                            contentType: 'application/json, charset=utf-8',
+                            async: true,
+                            success: function (data) {
+                                if (data != null) {
+                                    var AssignedSessionsList = data;
+                                    if (AssignedSessionsList != null && AssignedSessionsList.length > 0) {
+                                        var html3 = '';
+                                        for (var i = 0; i < AssignedSessionsList.length; i++) {
+                                            html3 += '<tr class="' + AssignedSessionsList[i]['TrDisabledClass'] + '" StudentPickedStatus="' + AssignedSessionsList[i]['StudentPickedStatus'] + '">';
+                                            html3 += '<td class="' + AssignedSessionsList[i]['Trclass'] + '"></td>';
+                                            html3 += '<td>' + AssignedSessionsList[i]['SessionID'] + '</td>';
+                                            html3 += '<td>' + AssignedSessionsList[i]['StudentName'] + '</td>';
+                                            html3 += '<td>' + AssignedSessionsList[i]['LessonObjective'] + '</td>';
+                                            html3 += '<td>' + AssignedSessionsList[i]['StudentAlignment'] + '</td>';
+                                            html3 += '<td>' + AssignedSessionsList[i]['CourseName'] + '</td>';
+                                            html3 += '<td>' + AssignedSessionsList[i]['SchoolName'] + '</td>';
+                                            html3 += '<td>' + AssignedSessionsList[i]['SubjectName'] + '</td>';
+                                            html3 += '<td>' + AssignedSessionsList[i]['GradeName'] + '</td>';
+                                            html3 += '<td>' + AssignedSessionsList[i]['ScheduledStartTime'] + '</td>';
+                                            html3 += '<td>' + AssignedSessionsList[i]['Duration'] + ' Mins</td>';
+                                            html3 += '<td>' + AssignedSessionsList[i]['ILPID'] + '</td>';
+                                            html3 += '<td><input class="btn btn-success ' + AssignedSessionsList[i]['BtnAnimateClass'] + '" id="btnJoinNow" type="submit" sessiontype="' + AssignedSessionsList[i]['SessionType'] + '" sessionid="' + AssignedSessionsList[i]['SessionID'] + '" studentid="' + AssignedSessionsList[i]['StudentID'] + '" studentname="' + AssignedSessionsList[i]['StudentName'] + '" value="Join Now" ' + AssignedSessionsList[i]['BtnDisabledValue'] + ' /></td>';
+                                            html3 += '<td><a href="/Tutor/Tutor/Tutornotes?studentID=' + AssignedSessionsList[i]['StudentID'] + '&subjectID=' + AssignedSessionsList[i]['SubjectID'] + '" class="btn btn-success" target="_blank">View</a></td>';
+                                            html3 += '<td><input class="btn btn-warning mr5 mb10" type="button" value="View Notes" id="btnUploadFiles" sessionid="' + AssignedSessionsList[i]['SessionID'] + '"/></td>';
+                                            html3 += '<td><a href="/Tutor/Tutor/StudentILPLesson?studentid=' + AssignedSessionsList[i]['StudentID'] + '&ilpid=' + AssignedSessionsList[i]['ILPID'] + '&sessionid=' + AssignedSessionsList[i]['SessionID'] + '" title="Click on this link to view Student ILP details.">View ILP</a></td>';
+                                            html3 += '<td>' + AssignedSessionsList[i]['DEVICE'] + '</td>';
+                                            html3 += '<td><input type="button" id="btnDecline" value="Decline" class="btn btn-danger" sessionid="' + AssignedSessionsList[i]['SessionID'] + '" /></td>';
+                                            html3 += '<td>' + AssignedSessionsList[i]['Selected_Category'] + '</td>';
+                                            html3 += '</tr>';
+                                            $('#divAssignedSessions #tblUpcoming tbody').html('').html(html3);
+                                        }
+                                    } else {
+                                        $('#divAssignedSessions #tblUpcoming tbody').html('').html('<tr><td colspan="16"><div class="m5 alert alert-info text-danger text-center">' + $('#hdnFevResEmptyRecord').val() + '</div></td></tr>');
+                                    }
+                                } else {
+                                    var divVal = $('#hdnFevResEmptyRecord').val();
+                                    var classVal = 'm5 alert alert-info text-danger text-center';
+                                    if (data == 'login') {
+                                        divVal = $('#hdnFevResSessionExpired').val();
+                                        classVal = 'm5 alert alert-danger text-info text-center';
+                                    }
+                                    $('#divAssignedSessions #tblUpcoming tbody').html('').html('<tr><td colspan="16"><div class="' + classVal + '">' + divVal + '</div></td></tr>');
+                                }
+                                isBusyAssigned = false;
+                            },
+                            error: function (event, xhr, options) {
+                                isBusyAssigned = false;
+                                var divVal = $('#hdnFevResAjaxCallError').val();
+                                var classVal = 'm5 alert alert-info text-danger text-center';
+                                $('#divAssignedSessions #tblUpcoming tbody').html('').html('<tr><td colspan="16"><div class="' + classVal + '">' + divVal + '</div></td></tr>');
+                            }
+                        });
+                    } else {
+                        isBusyAssigned = false;
+                        var divVal = $('#hdnFevResSessionExpired').val();
+                        var classVal = 'm5 alert alert-danger text-info text-center';
+                        $('#divAssignedSessions #tblUpcoming tbody').html('').html('<tr><td colspan="16"><div class="' + classVal + '">' + divVal + '</div></td></tr>');
+                    }
+                }
+            }
+        }
+
+        function asyncLoadWaitingSessions() {
+            if ($('#hdnTutorOnlineStatus').val() == 'true') {
+                if (!isBusyWaiting) {
+                    isBusyWaiting = true;
+                    var sessionVal = getSessionID('/Tutor/Tutor/GetSessionID');
+                    if (sessionVal != '') {
+                        $.ajax({
+                            type: 'POST',
+                            url: '/Tutor/Tutor/AsyncIndexDataNewUpcoming',
+                            data: "{'upcomingCount':'" + ($('#txtUpcomingSessionCount').val() == '' ? $('#hdn_DASH_BOARD_TUTOR_DISPLAY_SESSION_COUNT').val() : $('#txtUpcomingSessionCount').val()) + "'}",
+                            dataType: 'json',
+                            contentType: 'application/json, charset=utf-8',
+                            async: true,
+                            success: function (data) {
+                                if (data != null) {
+                                    var UpComingSessionsList = data;
+                                    if (UpComingSessionsList != null && UpComingSessionsList.length > 0) {
+                                        var html4 = '';
+                                        for (var i = 0; i < UpComingSessionsList.length; i++) {
+                                            html4 += '<tr class="' + UpComingSessionsList[i]['TrDisabledClass'] + '" style="display:' + UpComingSessionsList[i]['TrDisplay'] + ';" sessionid="' + UpComingSessionsList[i]['SessionID'] + '" studentid="' + UpComingSessionsList[i]['StudentID'] + '" studentname="' + UpComingSessionsList[i]['StudentName'] + '" preferredtutorid="' + UpComingSessionsList[i]['PreferredTutorID'] + '">';
+                                            html4 += '<td class="' + UpComingSessionsList[i]['Trclass'] + '"></td>';
+                                            html4 += '<td>' + UpComingSessionsList[i]['SessionID'] + '</td>';
+                                            html4 += '<td>' + UpComingSessionsList[i]['StudentName'] + '</td>';
+                                            html4 += '<td>' + UpComingSessionsList[i]['LessonObjective'] + '</td>';
+                                            html4 += '<td>' + UpComingSessionsList[i]['StudentAlignment'] + '</td>';
+                                            html4 += '<td>' + UpComingSessionsList[i]['SchoolName'] + '</td>';
+                                            html4 += '<td>' + UpComingSessionsList[i]['SubjectName'] + '</td>';
+                                            html4 += '<td>' + UpComingSessionsList[i]['GradeName'] + '</td>';
+                                            html4 += '<td>' + UpComingSessionsList[i]['ScheduledStartTime'] + '</td>';
+                                            html4 += '<td>' + UpComingSessionsList[i]['Duration'] + ' Mins</td>';
+                                            html4 += '<td>' + UpComingSessionsList[i]['ILPID'] + '</td>';
+                                            html4 += '<td><input class="btn btn-success" id="btnJoinNow" type="submit" sessionid="' + UpComingSessionsList[i]['SessionID'] + '" studentid="' + UpComingSessionsList[i]['StudentID'] + '" studentname="' + UpComingSessionsList[i]['StudentName'] + '" value="Join Now" ' + UpComingSessionsList[i]['BtnDisabledValue'] + ' /></td>';
+                                            html4 += '<td><a href="/Tutor/Tutor/Tutornotes?studentID=' + UpComingSessionsList[i]['StudentID'] + '&subjectID=' + UpComingSessionsList[i]['SubjectID'] + '" class="btn btn-success" target="_blank">View</a></td>';
+                                            html4 += '<td>' + UpComingSessionsList[i]['DEVICE'] + '</td>';
+                                            html4 += '<td><input class="btn btn-warning mr5 mb10" type="button" value="View Notes" id="btnUploadFiles" sessionid="' + UpComingSessionsList[i]['SessionID'] + '" /></td>';
+                                            html4 += '<td><a href="/Tutor/Tutor/StudentILPLesson?studentid=' + UpComingSessionsList[i]['StudentID'] + '&ilpid=' + UpComingSessionsList[i]['ILPID'] + '&sessionid=' + UpComingSessionsList[i]['SessionID'] + '" title="Click on this link to view Student ILP details.">View ILP</a></td>';
+                                            html4 += '<td>' + UpComingSessionsList[i]['Selected_Category'] + '</td>';
+                                            html4 += '</tr>';
+                                            $('#divUpcomingSessions #tblUpcoming tbody').html('').html(html4);
+                                        }
+                                    } else {
+                                        $('#divUpcomingSessions #tblUpcoming tbody').html('').html('<tr><td colspan="14"><div class="m5 alert alert-info text-danger text-center">' + $('#hdnFevResEmptyRecord').val() + '</div></td></tr>');
+                                    }
+
+                                    if ($('#divUpcomingSessions #tblUpcoming tbody tr:visible').length == 0) {
+                                        $('#divUpcomingSessions #tblUpcoming tbody').html('').html('<tr><td colspan="14"><div class="m5 alert alert-info text-danger text-center">' + $('#hdnFevResEmptyRecord').val() + '</div></td></tr>');
+                                    }
+                                } else {
+                                    var divVal = $('#hdnFevResEmptyRecord').val();
+                                    var classVal = 'm5 alert alert-info text-danger text-center';
+                                    if (data == 'login') {
+                                        divVal = $('#hdnFevResSessionExpired').val();
+                                        classVal = 'm5 alert alert-danger text-info text-center';
+                                    }
+                                    $('#divUpcomingSessions #tblUpcoming tbody').html('').html('<tr><td colspan="14"><div class="' + classVal + '">' + divVal + '</div></td></tr>');
+                                }
+                                isBusyWaiting = false;
+                            },
+                            error: function (event, xhr, options) {
+                                isBusyWaiting = false;
+                                var divVal = $('#hdnFevResAjaxCallError').val();
+                                var classVal = 'm5 alert alert-info text-danger text-center';
+                                $('#divUpcomingSessions #tblUpcoming tbody').html('').html('<tr><td colspan="14"><div class="' + classVal + '">' + divVal + '</div></td></tr>');
+                            }
+                        });
+                    } else {
+                        isBusyWaiting = false;
+                        var divVal = $('#hdnFevResSessionExpired').val();
+                        var classVal = 'm5 alert alert-danger text-info text-center';
+                        $('#divUpcomingSessions #tblUpcoming tbody').html('').html('<tr><td colspan="14"><div class="' + classVal + '">' + divVal + '</div></td></tr>');
+                    }
+                }
+            }
+        }
+
+        
+
+    </script>
+</body>
+</html>
